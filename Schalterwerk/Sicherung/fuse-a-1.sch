@@ -9942,7 +9942,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="250"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
+<part name="FAULT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="5k"/>
 <part name="SJ1" library="eagleparts" deviceset="SJ" device="RND2"/>
 <part name="SJ2" library="eagleparts" deviceset="SJ" device="RND2"/>
@@ -10006,7 +10006,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="107.7214" y="77.47" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="112.522" y="77.47" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED1" gate="G$1" x="144.78" y="106.68" smashed="yes">
+<instance part="FAULT" gate="G$1" x="144.78" y="106.68" smashed="yes">
 <attribute name="NAME" x="148.336" y="102.108" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="150.495" y="102.108" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -10130,7 +10130,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="FAULT" gate="G$1" pin="A"/>
 <wire x1="144.78" y1="111.76" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10184,7 +10184,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="109.22" y1="76.2" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 <junction x="116.84" y="73.66"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="FAULT" gate="G$1" pin="C"/>
 <wire x1="116.84" y1="66.04" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="101.6" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="99.06" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
