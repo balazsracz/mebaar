@@ -335,6 +335,22 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <vertex x="10" y="-3"/>
 <vertex x="3" y="-3"/>
 </polygon>
+<hole x="0" y="2.54" drill="0.35"/>
+<hole x="0" y="-2.54" drill="0.35"/>
+<hole x="2.54" y="0" drill="0.35"/>
+<hole x="-2.54" y="0" drill="0.35"/>
+<hole x="-1.778" y="1.778" drill="0.35"/>
+<hole x="1.778" y="1.778" drill="0.35"/>
+<hole x="1.778" y="-1.778" drill="0.35"/>
+<hole x="-1.778" y="-1.778" drill="0.35"/>
+<hole x="0" y="4.064" drill="0.35"/>
+<hole x="4.064" y="0" drill="0.35"/>
+<hole x="-4.064" y="0" drill="0.35"/>
+<hole x="0" y="-4.064" drill="0.35"/>
+<hole x="2.794" y="-2.794" drill="0.35"/>
+<hole x="-2.794" y="-2.794" drill="0.35"/>
+<hole x="-2.794" y="2.794" drill="0.35"/>
+<hole x="2.794" y="2.794" drill="0.35"/>
 </package>
 <package name="BANANAPLUG-7-LUG">
 <description>Keystone 6073 &lt;br&gt;
@@ -349,6 +365,34 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <vertex x="14.3" y="-5"/>
 <vertex x="3" y="-5"/>
 </polygon>
+<hole x="0" y="3.302" drill="0.35"/>
+<hole x="0" y="-3.302" drill="0.35"/>
+<hole x="3.302" y="0" drill="0.35"/>
+<hole x="-3.302" y="0" drill="0.35"/>
+<hole x="1.778" y="2.794" drill="0.35"/>
+<hole x="2.794" y="1.778" drill="0.35"/>
+<hole x="2.794" y="-1.778" drill="0.35"/>
+<hole x="1.778" y="-2.794" drill="0.35"/>
+<hole x="-1.778" y="-2.794" drill="0.35"/>
+<hole x="-2.794" y="-1.778" drill="0.35"/>
+<hole x="-2.794" y="1.778" drill="0.35"/>
+<hole x="-1.778" y="2.794" drill="0.35"/>
+<hole x="0" y="6.604" drill="0.35"/>
+<hole x="0" y="-6.604" drill="0.35"/>
+<hole x="6.604" y="0" drill="0.35"/>
+<hole x="-6.604" y="0" drill="0.35"/>
+<hole x="4.572" y="4.572" drill="0.35"/>
+<hole x="-4.572" y="-4.572" drill="0.35"/>
+<hole x="-4.572" y="4.572" drill="0.35"/>
+<hole x="4.572" y="-4.572" drill="0.35"/>
+<hole x="2.54" y="6.096" drill="0.35"/>
+<hole x="-2.54" y="6.096" drill="0.35"/>
+<hole x="-2.54" y="-6.096" drill="0.35"/>
+<hole x="2.54" y="-6.096" drill="0.35"/>
+<hole x="6.096" y="2.54" drill="0.35"/>
+<hole x="-6.096" y="2.54" drill="0.35"/>
+<hole x="-6.096" y="-2.54" drill="0.35"/>
+<hole x="6.096" y="-2.54" drill="0.35"/>
 </package>
 </packages>
 <packages3d>
