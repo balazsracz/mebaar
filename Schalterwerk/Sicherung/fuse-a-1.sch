@@ -9934,7 +9934,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="Q3" library="eagleparts" deviceset="2SCR586D3TL1" device="" package3d_urn="urn:adsk.eagle:package:29503/2" value="2SCR586D3"/>
 <part name="Q1" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BCX71SMD" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value=""/>
 <part name="Q2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BCX71SMD" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value=""/>
-<part name="R17" library="tcs" deviceset="PTC_" device="1812" value="500mA"/>
+<part name="R10" library="tcs" deviceset="PTC_" device="1812"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2"/>
@@ -9951,6 +9951,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="U$1" library="eagleparts" deviceset="TIPPLUG" device="-4"/>
 <part name="U$2" library="eagleparts" deviceset="TIPPLUG" device="-4"/>
 <part name="U$3" library="eagleparts" deviceset="TIPPLUG" device="-7"/>
+<part name="U$4" library="eagleparts" deviceset="TIPPLUG" device="-4"/>
 </parts>
 <sheets>
 <sheet>
@@ -9974,7 +9975,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="93.98" y="139.7" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="101.6" y="139.7" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R17" gate="1" x="116.84" y="111.76" smashed="yes">
+<instance part="R10" gate="1" x="116.84" y="111.76" smashed="yes">
 <attribute name="NAME" x="118.8974" y="108.966" size="1.778" layer="95"/>
 <attribute name="VALUE" x="118.872" y="106.553" size="1.778" layer="96"/>
 </instance>
@@ -10039,6 +10040,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="U$3" gate="G$1" x="132.08" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="133.985" y="60.325" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$4" gate="G$1" x="132.08" y="154.94" smashed="yes">
+<attribute name="VALUE" x="130.175" y="158.115" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10061,7 +10065,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="129.54" x2="114.3" y2="127" width="0.1524" layer="91"/>
 <junction x="114.3" y="127"/>
-<pinref part="R17" gate="1" pin="2"/>
+<pinref part="R10" gate="1" pin="2"/>
 <wire x1="116.84" y1="116.84" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 <junction x="116.84" y="127"/>
 <wire x1="116.84" y1="119.38" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
@@ -10098,7 +10102,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="FUSEOUT" class="0">
 <segment>
-<pinref part="R17" gate="1" pin="1"/>
+<pinref part="R10" gate="1" pin="1"/>
 <pinref part="Q3" gate="G$1" pin="C"/>
 <wire x1="116.84" y1="106.68" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
@@ -10164,7 +10168,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="88.9" y1="147.32" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
 <junction x="116.84" y="147.32"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="147.32" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="124.46" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="147.32" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
@@ -10172,6 +10177,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="SJ2" gate="1" pin="2"/>
 <wire x1="134.62" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
 <junction x="144.78" y="124.46"/>
+<pinref part="U$4" gate="G$1" pin="$1"/>
+<wire x1="132.08" y1="152.4" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
+<junction x="132.08" y="147.32"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
