@@ -744,10 +744,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <hole x="6.096" y="-2.54" drill="0.35"/>
 </package>
 <package name="BLADEPLUG-9.5X1.25">
-<wire x1="-5" y1="0.65" x2="5" y2="0.65" width="0" layer="46"/>
-<wire x1="5" y1="0.65" x2="5" y2="-0.65" width="0" layer="46"/>
-<wire x1="5" y1="-0.65" x2="-5" y2="-0.65" width="0" layer="46"/>
-<wire x1="-5" y1="-0.65" x2="-5" y2="0.65" width="0" layer="46"/>
+<wire x1="-4.85" y1="0.65" x2="4.85" y2="0.65" width="0" layer="46"/>
+<wire x1="4.85" y1="0.65" x2="4.85" y2="-0.65" width="0" layer="46"/>
+<wire x1="4.85" y1="-0.65" x2="-4.85" y2="-0.65" width="0" layer="46"/>
+<wire x1="-4.85" y1="-0.65" x2="-4.85" y2="0.65" width="0" layer="46"/>
 <smd name="PT" x="0" y="0" dx="12" dy="3.5" layer="1" roundness="50" thermals="no" cream="no"/>
 <hole x="-4.5" y="1.25" drill="0.35"/>
 <hole x="-3.5" y="1.25" drill="0.35"/>
@@ -776,7 +776,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <hole x="5.5" y="0" drill="0.35"/>
 <hole x="5.5" y="-1" drill="0.35"/>
 <smd name="PB" x="0" y="0" dx="12" dy="3.5" layer="16" roundness="50" thermals="no" cream="no"/>
-<rectangle x1="-5" y1="-0.65" x2="5" y2="0.65" layer="51"/>
+<rectangle x1="-4.85" y1="-0.65" x2="4.85" y2="0.65" layer="51"/>
 </package>
 </packages>
 <packages3d>
