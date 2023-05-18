@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -5894,12 +5894,12 @@ Source: GLX-S-88M.pdf</description>
 <attribute name="NAME" x="127" y="134.3914" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="127" y="139.192" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SJ1" gate="1" x="87.63" y="130.81" smashed="yes">
-<attribute name="NAME" x="85.09" y="127" size="1.778" layer="95"/>
-<attribute name="VALUE" x="85.09" y="127" size="1.778" layer="96"/>
+<instance part="SJ1" gate="1" x="80.01" y="130.81" smashed="yes">
+<attribute name="NAME" x="77.47" y="127" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.47" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="1" x="95.25" y="135.89" smashed="yes">
-<attribute name="VALUE" x="92.71" y="138.43" size="1.778" layer="96"/>
+<instance part="P+2" gate="1" x="87.63" y="135.89" smashed="yes">
+<attribute name="VALUE" x="85.09" y="138.43" size="1.778" layer="96"/>
 </instance>
 <instance part="Q2" gate="G$1" x="116.84" y="106.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="111.252" y="110.49" size="1.778" layer="95" rot="R180"/>
@@ -5916,12 +5916,12 @@ Source: GLX-S-88M.pdf</description>
 <attribute name="NAME" x="127" y="112.8014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="127" y="117.602" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SJ2" gate="1" x="87.63" y="109.22" smashed="yes">
-<attribute name="NAME" x="85.09" y="105.41" size="1.778" layer="95"/>
-<attribute name="VALUE" x="85.09" y="105.41" size="1.778" layer="96"/>
+<instance part="SJ2" gate="1" x="80.01" y="109.22" smashed="yes">
+<attribute name="NAME" x="77.47" y="105.41" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.47" y="105.41" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="95.25" y="114.3" smashed="yes">
-<attribute name="VALUE" x="92.71" y="116.84" size="1.778" layer="96"/>
+<instance part="P+3" gate="1" x="87.63" y="114.3" smashed="yes">
+<attribute name="VALUE" x="85.09" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="Q3" gate="G$1" x="116.84" y="85.09" smashed="yes" rot="R180">
 <attribute name="NAME" x="111.252" y="88.9" size="1.778" layer="95" rot="R180"/>
@@ -5938,12 +5938,12 @@ Source: GLX-S-88M.pdf</description>
 <attribute name="NAME" x="127" y="91.2114" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="127" y="96.012" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SJ3" gate="1" x="87.63" y="87.63" smashed="yes">
-<attribute name="NAME" x="85.09" y="83.82" size="1.778" layer="95"/>
-<attribute name="VALUE" x="85.09" y="83.82" size="1.778" layer="96"/>
+<instance part="SJ3" gate="1" x="80.01" y="87.63" smashed="yes">
+<attribute name="NAME" x="77.47" y="83.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.47" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="P+4" gate="1" x="95.25" y="92.71" smashed="yes">
-<attribute name="VALUE" x="92.71" y="95.25" size="1.778" layer="96"/>
+<instance part="P+4" gate="1" x="87.63" y="92.71" smashed="yes">
+<attribute name="VALUE" x="85.09" y="95.25" size="1.778" layer="96"/>
 </instance>
 <instance part="Q4" gate="G$1" x="116.84" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="111.252" y="67.31" size="1.778" layer="95" rot="R180"/>
@@ -5960,12 +5960,12 @@ Source: GLX-S-88M.pdf</description>
 <attribute name="NAME" x="127" y="69.6214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="127" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SJ4" gate="1" x="87.63" y="66.04" smashed="yes">
-<attribute name="NAME" x="85.09" y="62.23" size="1.778" layer="95"/>
-<attribute name="VALUE" x="85.09" y="62.23" size="1.778" layer="96"/>
+<instance part="SJ4" gate="1" x="80.01" y="66.04" smashed="yes">
+<attribute name="NAME" x="77.47" y="62.23" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.47" y="62.23" size="1.778" layer="96"/>
 </instance>
-<instance part="P+5" gate="1" x="95.25" y="71.12" smashed="yes">
-<attribute name="VALUE" x="92.71" y="73.66" size="1.778" layer="96"/>
+<instance part="P+5" gate="1" x="87.63" y="71.12" smashed="yes">
+<attribute name="VALUE" x="85.09" y="73.66" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="157.48" y="97.79" smashed="yes">
 <attribute name="VALUE" x="154.94" y="95.25" size="1.778" layer="96"/>
@@ -6002,17 +6002,17 @@ Source: GLX-S-88M.pdf</description>
 <instance part="J5" gate="A" x="223.52" y="73.66" smashed="yes">
 <attribute name="NAME" x="227.6846" y="78.9686" size="2.083" layer="95" ratio="6"/>
 </instance>
-<instance part="SJ9" gate="1" x="195.58" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="199.39" y="115.57" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="199.39" y="114.3" size="1.778" layer="96" rot="R90"/>
+<instance part="SJ9" gate="1" x="195.58" y="118.11" smashed="yes" rot="R90">
+<attribute name="NAME" x="199.39" y="116.84" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="199.39" y="115.57" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SJ10" gate="1" x="195.58" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="199.39" y="92.71" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="199.39" y="91.44" size="1.778" layer="96" rot="R90"/>
+<instance part="SJ10" gate="1" x="195.58" y="96.012" smashed="yes" rot="R90">
+<attribute name="NAME" x="199.39" y="94.742" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="199.39" y="93.472" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SJ11" gate="1" x="195.58" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="199.39" y="72.39" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="199.39" y="71.12" size="1.778" layer="96" rot="R90"/>
+<instance part="SJ11" gate="1" x="195.58" y="74.93" smashed="yes" rot="R90">
+<attribute name="NAME" x="199.39" y="73.66" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="199.39" y="72.39" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -6020,7 +6020,7 @@ Source: GLX-S-88M.pdf</description>
 <nets>
 <net name="CH1-12VIN" class="0">
 <segment>
-<wire x1="80.01" y1="125.73" x2="106.68" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="125.73" x2="106.68" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="125.73" x2="106.68" y2="135.89" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="106.68" y1="135.89" x2="114.3" y2="135.89" width="0.1524" layer="91"/>
@@ -6030,14 +6030,14 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="118.11" y1="135.89" x2="114.3" y2="135.89" width="0.1524" layer="91"/>
 <junction x="114.3" y="135.89"/>
 <pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="82.55" y1="130.81" x2="80.01" y2="130.81" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="130.81" x2="80.01" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="130.81" x2="72.39" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="130.81" x2="72.39" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="J1" gate="A" pin="7"/>
 <pinref part="J1" gate="A" pin="8"/>
 <wire x1="48.26" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="125.73" x2="48.26" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="125.73" x2="48.26" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="125.73" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
-<junction x="80.01" y="125.73"/>
+<junction x="72.39" y="125.73"/>
 <junction x="48.26" y="137.16"/>
 </segment>
 </net>
@@ -6098,24 +6098,24 @@ Source: GLX-S-88M.pdf</description>
 <segment>
 <pinref part="SJ1" gate="1" pin="2"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<wire x1="92.71" y1="130.81" x2="95.25" y2="130.81" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="130.81" x2="95.25" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="85.09" y1="130.81" x2="87.63" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="130.81" x2="87.63" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="92.71" y1="109.22" x2="95.25" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="109.22" x2="95.25" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="85.09" y1="109.22" x2="87.63" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="109.22" x2="87.63" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="1" pin="2"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
 </segment>
 <segment>
-<wire x1="92.71" y1="87.63" x2="95.25" y2="87.63" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="87.63" x2="95.25" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="85.09" y1="87.63" x2="87.63" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="87.63" x2="87.63" y2="90.17" width="0.1524" layer="91"/>
 <pinref part="SJ3" gate="1" pin="2"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
 </segment>
 <segment>
-<wire x1="92.71" y1="66.04" x2="95.25" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="66.04" x2="95.25" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="85.09" y1="66.04" x2="87.63" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="66.04" x2="87.63" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="SJ4" gate="1" pin="2"/>
 <pinref part="P+5" gate="1" pin="+12V"/>
 </segment>
@@ -6157,21 +6157,21 @@ Source: GLX-S-88M.pdf</description>
 </net>
 <net name="CH2-12VIN" class="0">
 <segment>
-<wire x1="80.01" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="104.14" x2="106.68" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="114.3" x2="114.3" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="118.11" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
 <junction x="114.3" y="114.3"/>
-<wire x1="82.55" y1="109.22" x2="80.01" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="109.22" x2="80.01" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="109.22" x2="72.39" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="109.22" x2="72.39" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="SJ2" gate="1" pin="1"/>
 <pinref part="J1" gate="A" pin="6"/>
-<wire x1="80.01" y1="104.14" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="104.14" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="104.14" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
-<junction x="80.01" y="104.14"/>
+<junction x="72.39" y="104.14"/>
 <pinref part="J1" gate="A" pin="5"/>
 <wire x1="43.18" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
 <junction x="43.18" y="137.16"/>
@@ -6224,19 +6224,19 @@ Source: GLX-S-88M.pdf</description>
 </net>
 <net name="CH3-12VIN" class="0">
 <segment>
-<wire x1="80.01" y1="82.55" x2="106.68" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="82.55" x2="106.68" y2="82.55" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="82.55" x2="106.68" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="92.71" x2="114.3" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="92.71" x2="114.3" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="118.11" y1="92.71" x2="114.3" y2="92.71" width="0.1524" layer="91"/>
 <junction x="114.3" y="92.71"/>
-<wire x1="82.55" y1="87.63" x2="80.01" y2="87.63" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="87.63" x2="80.01" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="87.63" x2="72.39" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="87.63" x2="72.39" y2="82.55" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="SJ3" gate="1" pin="1"/>
-<wire x1="80.01" y1="82.55" x2="38.1" y2="82.55" width="0.1524" layer="91"/>
-<junction x="80.01" y="82.55"/>
+<wire x1="72.39" y1="82.55" x2="38.1" y2="82.55" width="0.1524" layer="91"/>
+<junction x="72.39" y="82.55"/>
 <pinref part="J1" gate="A" pin="4"/>
 <pinref part="J1" gate="A" pin="3"/>
 <wire x1="38.1" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
@@ -6291,19 +6291,19 @@ Source: GLX-S-88M.pdf</description>
 </net>
 <net name="CH4-12VIN" class="0">
 <segment>
-<wire x1="80.01" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="60.96" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="71.12" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="118.11" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 <junction x="114.3" y="71.12"/>
-<wire x1="82.55" y1="66.04" x2="80.01" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="66.04" x2="80.01" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="66.04" x2="72.39" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="66.04" x2="72.39" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="SJ4" gate="1" pin="1"/>
-<wire x1="80.01" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
-<junction x="80.01" y="60.96"/>
+<wire x1="72.39" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<junction x="72.39" y="60.96"/>
 <pinref part="J1" gate="A" pin="2"/>
 <pinref part="J1" gate="A" pin="1"/>
 <wire x1="33.02" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
@@ -6359,8 +6359,8 @@ Source: GLX-S-88M.pdf</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="OK1" gate="A" pin="A"/>
-<wire x1="177.8" y1="130.81" x2="203.2" y2="130.81" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="130.81" x2="215.9" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="130.81" x2="195.58" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="130.81" x2="215.9" y2="130.81" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="130.81" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="101.6" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
@@ -6368,20 +6368,9 @@ Source: GLX-S-88M.pdf</description>
 <junction x="215.9" y="119.38"/>
 <pinref part="J4" gate="A" pin="1"/>
 <wire x1="215.9" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="130.81" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
-<junction x="203.2" y="130.81"/>
+<wire x1="195.58" y1="130.81" x2="195.58" y2="123.19" width="0.1524" layer="91"/>
+<junction x="195.58" y="130.81"/>
 <pinref part="SJ9" gate="1" pin="2"/>
-<wire x1="195.58" y1="124.46" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="124.46" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
-<junction x="203.2" y="124.46"/>
-<wire x1="203.2" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="SJ10" gate="1" pin="2"/>
-<wire x1="195.58" y1="101.6" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="SJ11" gate="1" pin="2"/>
-<wire x1="195.58" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="78.74" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
-<junction x="203.2" y="101.6"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6410,8 +6399,10 @@ Source: GLX-S-88M.pdf</description>
 <junction x="208.28" y="109.22"/>
 <pinref part="J4" gate="A" pin="3"/>
 <pinref part="SJ9" gate="1" pin="1"/>
-<wire x1="195.58" y1="111.76" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="113.03" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
 <junction x="195.58" y="109.22"/>
+<pinref part="SJ10" gate="1" pin="2"/>
+<wire x1="195.58" y1="109.22" x2="195.58" y2="101.092" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -6440,7 +6431,7 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="218.44" y1="66.04" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
 <junction x="218.44" y="68.58"/>
 <pinref part="SJ11" gate="1" pin="1"/>
-<wire x1="195.58" y1="68.58" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="69.85" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
 <junction x="195.58" y="66.04"/>
 </segment>
 </net>
@@ -6511,8 +6502,10 @@ Source: GLX-S-88M.pdf</description>
 <junction x="213.36" y="87.63"/>
 <pinref part="J5" gate="A" pin="1"/>
 <pinref part="SJ10" gate="1" pin="1"/>
-<wire x1="195.58" y1="88.9" x2="195.58" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="90.932" x2="195.58" y2="87.63" width="0.1524" layer="91"/>
 <junction x="195.58" y="87.63"/>
+<pinref part="SJ11" gate="1" pin="2"/>
+<wire x1="195.58" y1="80.01" x2="195.58" y2="87.63" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
