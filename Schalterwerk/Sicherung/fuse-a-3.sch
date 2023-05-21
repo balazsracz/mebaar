@@ -143,52 +143,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames" urn="urn:adsk.eagle:library:229">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:13874/1" library_version="1">
-<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13926/1" prefix="FRAME" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with location and doc. field</description>
-<gates>
-<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="eagleparts">
 <packages>
 <package name="D-PAK_TO252AA" urn="urn:adsk.eagle:footprint:29399/1">
@@ -9964,8 +9918,82 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="trainlib">
+<packages>
+</packages>
+<symbols>
+<symbol name="FRAME_A_L">
+<frame x1="0" y1="0" x2="254" y2="190.5" columns="6" rows="5" layer="94"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="58.42" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="58.42" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="58.42" y1="5.08" x2="58.42" y2="0" width="0.1016" layer="94"/>
+<wire x1="58.42" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="58.42" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="77.47" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="0" y1="10.16" x2="101.6" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="10.16" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="15.24" x2="77.47" y2="10.16" width="0.1016" layer="94"/>
+<text x="59.69" y="1.27" size="2.54" layer="94" font="vector">DATE:</text>
+<text x="71.12" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="78.74" y="16.51" size="2.54" layer="94" font="vector">SHEET:</text>
+<text x="91.44" y="16.51" size="2.54" layer="94" font="vector">&gt;VALUE</text>
+<text x="78.74" y="21.59" size="2.54" layer="94" font="vector">REV:</text>
+<text x="1.27" y="21.59" size="2.54" layer="94" font="vector">TITLE:</text>
+<text x="1.27" y="6.35" size="2.54" layer="94" font="vector">&gt;LICENSE</text>
+<text x="91.44" y="21.59" size="2.54" layer="94" font="vector">&gt;REVISION</text>
+<text x="1.27" y="11.43" size="2.54" layer="94" font="vector">AUTHOR:</text>
+<text x="20.32" y="11.43" size="2.54" layer="94" font="vector">&gt;AUTHOR</text>
+<text x="78.74" y="11.43" size="2.54" layer="94" font="vector">(C)</text>
+<text x="86.36" y="11.43" size="2.54" layer="94" font="vector">&gt;YEAR</text>
+<text x="12.7" y="21.59" size="2.54" layer="94" font="vector">&gt;DRAWING_TITLE</text>
+<wire x1="0" y1="15.24" x2="0" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="0" y1="20.32" x2="77.47" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="20.32" x2="101.6" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="20.32" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="16.51" size="2.54" layer="94" font="vector">PAGE:</text>
+<text x="12.7" y="16.51" size="2.54" layer="94" font="vector">&gt;PAGE</text>
+<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">REVIEWED BY:</text>
+<text x="27.94" y="1.27" size="2.54" layer="94" font="vector">&gt;REVIEWER</text>
+<wire x1="77.47" y1="20.32" x2="77.47" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="77.47" y1="25.4" x2="77.47" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="25.4" x2="101.6" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="0" y1="25.4" x2="0" y2="20.32" width="0.1016" layer="94"/>
+<wire x1="0" y1="25.4" x2="101.6" y2="25.4" width="0.1016" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME_A_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt; A Size , 8 1/2 x 11 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_A_L" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="DOCFIELD" x="148.59" y="3.81" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
+<attribute name="AUTHOR" value="Balazs Racz"/>
+<attribute name="DRAWING_TITLE" value="MEB Schalterwerk Projekt"/>
+<attribute name="LICENSE" value="Licensed by the Solderpad Hardware License V2.0"/>
+<attribute name="REVIEWER" value="n/a"/>
+<attribute name="REVISION" value="A3"/>
+<attribute name="YEAR" value="2023"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -9974,7 +10002,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="Q3" library="eagleparts" deviceset="2SCR586D3TL1" device="" package3d_urn="urn:adsk.eagle:package:29503/2" value="2SCR586D3"/>
 <part name="Q1" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BCX71SMD" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value=""/>
 <part name="Q2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BCX71SMD" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value=""/>
@@ -9995,17 +10022,18 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="U$1" library="eagleparts" deviceset="TIPPLUG" device="-4"/>
 <part name="U$2" library="eagleparts" deviceset="TIPPLUG" device="-4"/>
 <part name="U$4" library="eagleparts" deviceset="TIPPLUG" device="-4"/>
+<part name="FRAME2" library="trainlib" deviceset="FRAME_A_L" device="" value="1/1">
+<attribute name="PAGE" value="Sicherung für Relaisschaltungen"/>
+</part>
+<part name="FRAME3" library="trainlib" deviceset="FRAME_A_L" device="" value="3/6">
+<attribute name="PAGE" value="Input ports"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
-<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
-</instance>
 <instance part="Q3" gate="G$1" x="114.3" y="88.9" smashed="yes">
 <attribute name="NAME" x="119.38" y="90.17" size="2.54" layer="95" ratio="10"/>
 <attribute name="VALUE" x="119.38" y="85.09" size="2.54" layer="96" ratio="10"/>
@@ -10083,6 +10111,18 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="U$4" gate="G$1" x="132.08" y="154.94" smashed="yes">
 <attribute name="VALUE" x="130.175" y="158.115" size="1.778" layer="96"/>
 </instance>
+<instance part="FRAME2" gate="G$2" x="148.59" y="3.81" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="219.71" y="5.08" size="2.54" layer="94" font="vector"/>
+<attribute name="VALUE" x="240.03" y="20.32" size="2.54" layer="94" font="vector"/>
+<attribute name="LICENSE" x="149.86" y="10.16" size="2.54" layer="94" font="vector"/>
+<attribute name="REVISION" x="240.03" y="25.4" size="2.54" layer="94" font="vector"/>
+<attribute name="AUTHOR" x="168.91" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="YEAR" x="234.95" y="15.24" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_TITLE" x="161.29" y="25.4" size="2.54" layer="94" font="vector"/>
+<attribute name="REVIEWER" x="176.53" y="5.08" size="2.54" layer="94" font="vector"/>
+<attribute name="PAGE" x="161.29" y="20.32" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
 </instances>
 <busses>
 </busses>
