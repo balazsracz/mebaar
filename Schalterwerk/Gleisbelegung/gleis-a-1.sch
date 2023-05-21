@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -8383,6 +8383,7 @@ Source: www.kingbright.com</description>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.3" package3d_urn="urn:adsk.eagle:package:14278/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.3" package3d_urn="urn:adsk.eagle:package:14278/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.3" package3d_urn="urn:adsk.eagle:package:14278/1"/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8634,8 +8635,8 @@ Source: www.kingbright.com</description>
 <instance part="P+6" gate="1" x="106.68" y="177.8" smashed="yes">
 <attribute name="VALUE" x="104.14" y="180.34" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="106.68" y="165.1" smashed="yes">
-<attribute name="VALUE" x="104.14" y="162.56" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="106.68" y="162.56" smashed="yes">
+<attribute name="VALUE" x="104.14" y="160.02" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="149.86" y="114.3" smashed="yes">
 <attribute name="VALUE" x="147.32" y="111.76" size="1.778" layer="96"/>
@@ -8664,6 +8665,9 @@ Source: www.kingbright.com</description>
 <instance part="H4" gate="G$1" x="198.12" y="162.56" smashed="yes">
 <attribute name="NAME" x="200.152" y="163.1442" size="1.778" layer="95"/>
 <attribute name="VALUE" x="200.152" y="160.0962" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="154.94" y="162.56" smashed="yes">
+<attribute name="VALUE" x="152.4" y="160.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8830,6 +8834,10 @@ Source: www.kingbright.com</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="111.76" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="170.18" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="GND3"/>
+<wire x1="106.68" y1="167.64" x2="106.68" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="167.64" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
+<junction x="106.68" y="167.64"/>
 </segment>
 <segment>
 <pinref part="D7" gate="G$1" pin="C"/>
@@ -8870,6 +8878,16 @@ Source: www.kingbright.com</description>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="149.86" y1="116.84" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 <junction x="149.86" y="119.38"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="GND4"/>
+<wire x1="142.24" y1="167.64" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="154.94" y1="167.64" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="GND2"/>
+<wire x1="142.24" y1="170.18" x2="154.94" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="170.18" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
+<junction x="154.94" y="167.64"/>
 </segment>
 </net>
 <net name="CH2-12VIN" class="0">
