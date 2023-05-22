@@ -708,36 +708,36 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </package>
 <package name="IOBOARD">
 <wire x1="0" y1="0" x2="0" y2="30.48" width="0.127" layer="51"/>
-<wire x1="0" y1="30.48" x2="86.36" y2="30.48" width="0.127" layer="51"/>
-<wire x1="86.36" y1="30.48" x2="86.36" y2="0" width="0.127" layer="51"/>
-<wire x1="86.36" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
-<pad name="P$1" x="15.24" y="27.94" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$2" x="15.24" y="25.4" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$3" x="15.24" y="22.86" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$4" x="15.24" y="20.32" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$5" x="15.24" y="17.78" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$6" x="15.24" y="15.24" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$7" x="15.24" y="12.7" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$8" x="15.24" y="10.16" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$9" x="15.24" y="7.62" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$10" x="15.24" y="5.08" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$11" x="15.24" y="2.54" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$12" x="69.85" y="2.54" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$13" x="69.85" y="5.08" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$14" x="69.85" y="7.62" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$15" x="69.85" y="10.16" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$16" x="69.85" y="12.7" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$17" x="69.85" y="15.24" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$18" x="69.85" y="17.78" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$19" x="69.85" y="20.32" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$20" x="69.85" y="22.86" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$21" x="69.85" y="25.4" drill="1.016" diameter="1.524" shape="long"/>
-<pad name="P$22" x="69.85" y="27.94" drill="1.016" diameter="1.524" shape="long"/>
+<wire x1="0" y1="30.48" x2="80.01" y2="30.48" width="0.127" layer="51"/>
+<wire x1="80.01" y1="30.48" x2="80.01" y2="0" width="0.127" layer="51"/>
+<wire x1="80.01" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
+<pad name="P$1" x="12.7" y="27.94" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$2" x="12.7" y="25.4" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$3" x="12.7" y="22.86" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$4" x="12.7" y="20.32" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$5" x="12.7" y="17.78" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$6" x="12.7" y="15.24" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$7" x="12.7" y="12.7" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$8" x="12.7" y="10.16" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$9" x="12.7" y="7.62" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$10" x="12.7" y="5.08" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$11" x="12.7" y="2.54" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$12" x="67.31" y="2.54" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$13" x="67.31" y="5.08" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$14" x="67.31" y="7.62" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$15" x="67.31" y="10.16" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$16" x="67.31" y="12.7" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$17" x="67.31" y="15.24" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$18" x="67.31" y="17.78" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$19" x="67.31" y="20.32" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$20" x="67.31" y="22.86" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$21" x="67.31" y="25.4" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="P$22" x="67.31" y="27.94" drill="1.016" diameter="1.524" shape="long"/>
 <polygon width="0.127" layer="21">
-<vertex x="13.081" y="28.067"/>
-<vertex x="13.081" y="27.813"/>
-<vertex x="13.335" y="27.813"/>
-<vertex x="13.335" y="28.067"/>
+<vertex x="10.541" y="28.067"/>
+<vertex x="10.541" y="27.813"/>
+<vertex x="10.795" y="27.813"/>
+<vertex x="10.795" y="28.067"/>
 </polygon>
 </package>
 </packages>
