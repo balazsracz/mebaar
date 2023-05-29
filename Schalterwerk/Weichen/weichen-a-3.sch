@@ -8638,11 +8638,11 @@ anzubinden.</text>
 <attribute name="NAME" x="234.95" y="94.488" size="1.778" layer="95"/>
 <attribute name="VALUE" x="234.95" y="72.898" size="1.778" layer="96"/>
 </instance>
-<instance part="X5" gate="A" x="215.9" y="111.76" smashed="yes">
-<attribute name="NAME" x="220.0646" y="117.0686" size="2.083" layer="95" ratio="6"/>
+<instance part="X5" gate="A" x="215.9" y="104.14" smashed="yes" rot="MR180">
+<attribute name="NAME" x="220.0646" y="98.8314" size="2.083" layer="95" ratio="6" rot="MR180"/>
 </instance>
-<instance part="X6" gate="A" x="215.9" y="66.04" smashed="yes">
-<attribute name="NAME" x="220.0646" y="71.3486" size="2.083" layer="95" ratio="6"/>
+<instance part="X6" gate="A" x="215.9" y="58.42" smashed="yes" rot="MR180">
+<attribute name="NAME" x="220.0646" y="53.1114" size="2.083" layer="95" ratio="6" rot="MR180"/>
 </instance>
 <instance part="OK2" gate="A" x="139.7" y="129.54" smashed="yes">
 <attribute name="NAME" x="132.715" y="135.255" size="1.778" layer="95"/>
@@ -8748,41 +8748,41 @@ anzubinden.</text>
 <segment>
 <wire x1="208.28" y1="132.08" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="X4" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="111.76" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="93.98" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="93.98" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
-<junction x="208.28" y="111.76"/>
-<pinref part="X5" gate="A" pin="1"/>
-<wire x1="208.28" y1="111.76" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="X5" gate="A" pin="4"/>
+<wire x1="208.28" y1="111.76" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
+<junction x="208.28" y="111.76"/>
 </segment>
 </net>
 <net name="NX42" class="0">
 <segment>
-<wire x1="205.74" y1="127" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="X4" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="91.44" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
-<junction x="205.74" y="109.22"/>
-<pinref part="X5" gate="A" pin="2"/>
 <pinref part="OK2" gate="A" pin="EMIT"/>
+<wire x1="205.74" y1="109.22" x2="205.74" y2="127" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="127" x2="182.88" y2="127" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="1" pin="2"/>
 <wire x1="182.88" y1="127" x2="205.74" y2="127" width="0.1524" layer="91"/>
 <junction x="182.88" y="127"/>
+<pinref part="X5" gate="A" pin="3"/>
+<wire x1="205.74" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
+<junction x="205.74" y="109.22"/>
 </segment>
 </net>
 <net name="NX43" class="0">
 <segment>
-<wire x1="203.2" y1="114.3" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="106.68" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="X5" gate="A" pin="3"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="114.3" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="X4" gate="G$1" pin="3"/>
 <wire x1="228.6" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="114.3" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="X5" gate="A" pin="2"/>
 <wire x1="203.2" y1="106.68" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="106.68" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
 <junction x="203.2" y="106.68"/>
 </segment>
 </net>
@@ -8793,19 +8793,16 @@ anzubinden.</text>
 <wire x1="208.28" y1="83.82" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="76.2" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
 <junction x="208.28" y="76.2"/>
-<pinref part="X6" gate="A" pin="2"/>
-<wire x1="208.28" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="OK2" gate="C" pin="C"/>
 <wire x1="144.78" y1="86.36" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="86.36" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="X6" gate="A" pin="3"/>
+<wire x1="208.28" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NX46" class="0">
 <segment>
-<wire x1="200.66" y1="109.22" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="X5" gate="A" pin="4"/>
 <pinref part="OK2" gate="B" pin="EMIT"/>
 <wire x1="200.66" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="1" pin="1"/>
@@ -8814,7 +8811,10 @@ anzubinden.</text>
 <junction x="182.88" y="109.22"/>
 <pinref part="X4" gate="G$1" pin="6"/>
 <wire x1="200.66" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="109.22" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="X5" gate="A" pin="1"/>
 <wire x1="200.66" y1="104.14" x2="200.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 <junction x="200.66" y="104.14"/>
 </segment>
 </net>
@@ -8824,9 +8824,7 @@ anzubinden.</text>
 <wire x1="228.6" y1="86.36" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="86.36" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="78.74" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
 <junction x="205.74" y="78.74"/>
-<pinref part="X6" gate="A" pin="1"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="78.74" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
@@ -8835,6 +8833,8 @@ anzubinden.</text>
 <wire x1="182.88" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="78.74" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 <junction x="182.88" y="91.44"/>
+<pinref part="X6" gate="A" pin="4"/>
+<wire x1="205.74" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -9029,14 +9029,14 @@ anzubinden.</text>
 <pinref part="X4" gate="G$1" pin="7"/>
 <wire x1="228.6" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="78.74" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="X6" gate="A" pin="3"/>
-<wire x1="210.82" y1="60.96" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
-<junction x="210.82" y="60.96"/>
 <wire x1="210.82" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="1" pin="1"/>
 <wire x1="182.88" y1="68.58" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 <junction x="182.88" y="60.96"/>
+<pinref part="X6" gate="A" pin="2"/>
+<wire x1="210.82" y1="60.96" x2="215.9" y2="60.96" width="0.1524" layer="91"/>
+<junction x="210.82" y="60.96"/>
 </segment>
 </net>
 <net name="NX48" class="0">
@@ -9045,11 +9045,11 @@ anzubinden.</text>
 <pinref part="X4" gate="G$1" pin="8"/>
 <wire x1="228.6" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="76.2" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="X6" gate="A" pin="4"/>
 <wire x1="213.36" y1="58.42" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="X6" gate="A" pin="1"/>
 <wire x1="213.36" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
 <junction x="213.36" y="58.42"/>
-<wire x1="144.78" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
