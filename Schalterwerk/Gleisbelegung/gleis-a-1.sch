@@ -733,11 +733,10 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pad name="P$20" x="67.31" y="22.86" drill="1.016" diameter="1.524" shape="long"/>
 <pad name="P$21" x="67.31" y="25.4" drill="1.016" diameter="1.524" shape="long"/>
 <pad name="P$22" x="67.31" y="27.94" drill="1.016" diameter="1.524" shape="long"/>
-<polygon width="0.127" layer="21">
-<vertex x="10.541" y="28.067"/>
-<vertex x="10.541" y="27.813"/>
-<vertex x="10.795" y="27.813"/>
-<vertex x="10.795" y="28.067"/>
+<polygon width="0.127" layer="25">
+<vertex x="9.906" y="28.448"/>
+<vertex x="10.668" y="27.94"/>
+<vertex x="9.906" y="27.432"/>
 </polygon>
 </package>
 </packages>
@@ -8388,6 +8387,10 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<wire x1="167.64" y1="180.34" x2="167.64" y2="33.02" width="0.1524" layer="97" style="longdash"/>
+<text x="162.56" y="182.88" size="1.778" layer="97">Isolierung</text>
+<text x="152.4" y="177.8" size="1.778" layer="97">Schalterwerk</text>
+<text x="169.418" y="177.8" size="1.778" layer="97">Digitalsystem</text>
 </plain>
 <instances>
 <instance part="OK1" gate="D" x="167.64" y="129.54" smashed="yes" rot="MR0">
