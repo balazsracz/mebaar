@@ -9650,6 +9650,9 @@ www.irf.com&lt;p&gt;
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="SJ3" library="trainlib" deviceset="SJ" device="RND2"/>
+<part name="SJ4" library="trainlib" deviceset="SJ" device="RND2"/>
+<part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9845,8 +9848,8 @@ not populated.</text>
 <instance part="P+6" gate="1" x="152.4" y="182.88" smashed="yes">
 <attribute name="VALUE" x="149.86" y="177.8" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+8" gate="1" x="33.02" y="180.34" smashed="yes">
-<attribute name="VALUE" x="30.48" y="175.26" size="1.778" layer="96" rot="R90"/>
+<instance part="P+8" gate="1" x="17.78" y="182.88" smashed="yes">
+<attribute name="VALUE" x="15.24" y="177.8" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U5" gate="G$1" x="205.74" y="119.38" smashed="yes">
 <attribute name="NAME" x="195.58" y="124.968" size="1.778" layer="95"/>
@@ -9886,6 +9889,17 @@ not populated.</text>
 </instance>
 <instance part="P+12" gate="1" x="223.52" y="157.48" smashed="yes">
 <attribute name="VALUE" x="220.218" y="159.766" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SJ3" gate="1" x="25.4" y="175.26" smashed="yes" rot="MR0">
+<attribute name="NAME" x="27.94" y="177.8" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="27.94" y="171.45" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="SJ4" gate="1" x="25.4" y="170.18" smashed="yes" rot="MR0">
+<attribute name="NAME" x="27.94" y="165.1" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="27.94" y="166.37" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="SUPPLY10" gate="GND" x="17.78" y="165.1" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="19.685" y="161.925" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -10025,6 +10039,12 @@ not populated.</text>
 <wire x1="228.6" y1="139.7" x2="226.06" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 <wire x1="226.06" y1="139.7" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<wire x1="17.78" y1="170.18" x2="17.78" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="SJ4" gate="1" pin="2"/>
+<wire x1="17.78" y1="170.18" x2="20.32" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO-DN" class="0">
@@ -10325,10 +10345,10 @@ not populated.</text>
 <wire x1="162.56" y1="180.34" x2="152.4" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RN1" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="175.26" x2="33.02" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
-<wire x1="33.02" y1="175.26" x2="33.02" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="175.26" x2="17.78" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="1" pin="2"/>
+<wire x1="17.78" y1="175.26" x2="20.32" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="IN"/>
@@ -10650,6 +10670,18 @@ not populated.</text>
 <pinref part="Q8" gate="G$1" pin="D"/>
 <pinref part="JP2" gate="A" pin="10"/>
 <wire x1="104.14" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="RN1" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="175.26" x2="33.02" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="175.26" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="SJ4" gate="1" pin="1"/>
+<wire x1="33.02" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="1" pin="1"/>
+<wire x1="33.02" y1="175.26" x2="30.48" y2="175.26" width="0.1524" layer="91"/>
+<junction x="33.02" y="175.26"/>
 </segment>
 </net>
 </nets>
