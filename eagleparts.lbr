@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -814,7 +814,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="5.6769" y1="0" x2="5.5499" y2="0.254" width="0.1524" layer="47"/>
 <wire x1="5.6769" y1="0" x2="5.8039" y2="0.254" width="0.1524" layer="47"/>
 <wire x1="5.5499" y1="0.254" x2="5.8039" y2="0.254" width="0.1524" layer="47"/>
-<wire x1="-7.62" y1="4.35" x2="-20.9169" y2="4.35" width="0.1524" layer="47"/>
+<wire x1="-7.62" y1="4.35" x2="-27.9019" y2="4.35" width="0.1524" layer="47"/>
 <wire x1="7.62" y1="-23.59" x2="-20.9169" y2="-23.59" width="0.1524" layer="47"/>
 <wire x1="-20.5359" y1="4.35" x2="-20.5359" y2="-23.59" width="0.1524" layer="47"/>
 <wire x1="-20.5359" y1="4.35" x2="-20.6629" y2="4.096" width="0.1524" layer="47"/>
@@ -824,7 +824,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="-20.5359" y1="-23.59" x2="-20.4089" y2="-23.336" width="0.1524" layer="47"/>
 <wire x1="-20.6629" y1="-23.336" x2="-20.4089" y2="-23.336" width="0.1524" layer="47"/>
 <wire x1="1.27" y1="11.97" x2="-23.8379" y2="11.97" width="0.1524" layer="47"/>
-<wire x1="-7.62" y1="4.35" x2="-23.8379" y2="4.35" width="0.1524" layer="47"/>
 <wire x1="-23.4569" y1="11.97" x2="-23.4569" y2="4.35" width="0.1524" layer="47"/>
 <wire x1="-23.4569" y1="11.97" x2="-23.5839" y2="11.716" width="0.1524" layer="47"/>
 <wire x1="-23.4569" y1="11.97" x2="-23.3299" y2="11.716" width="0.1524" layer="47"/>
@@ -832,8 +831,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="-23.4569" y1="4.35" x2="-23.5839" y2="4.604" width="0.1524" layer="47"/>
 <wire x1="-23.4569" y1="4.35" x2="-23.3299" y2="4.604" width="0.1524" layer="47"/>
 <wire x1="-23.5839" y1="4.604" x2="-23.3299" y2="4.604" width="0.1524" layer="47"/>
-<wire x1="-18.3769" y1="11.15" x2="-27.9019" y2="11.15" width="0.1524" layer="47"/>
-<wire x1="-7.62" y1="4.35" x2="-27.9019" y2="4.35" width="0.1524" layer="47"/>
 <wire x1="-27.5209" y1="11.15" x2="-27.5209" y2="4.35" width="0.1524" layer="47"/>
 <wire x1="-27.5209" y1="11.15" x2="-27.6479" y2="10.896" width="0.1524" layer="47"/>
 <wire x1="-27.5209" y1="11.15" x2="-27.3939" y2="10.896" width="0.1524" layer="47"/>
@@ -841,7 +838,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="-27.5209" y1="4.35" x2="-27.6479" y2="4.604" width="0.1524" layer="47"/>
 <wire x1="-27.5209" y1="4.35" x2="-27.3939" y2="4.604" width="0.1524" layer="47"/>
 <wire x1="-27.6479" y1="4.604" x2="-27.3939" y2="4.604" width="0.1524" layer="47"/>
-<wire x1="-18.3769" y1="11.15" x2="-26.6319" y2="11.15" width="0.1524" layer="47"/>
+<wire x1="-18.3769" y1="11.15" x2="-27.9019" y2="11.15" width="0.1524" layer="47"/>
 <wire x1="-18.3769" y1="-7.0618" x2="-26.6319" y2="-7.0618" width="0.1524" layer="47"/>
 <wire x1="-26.2509" y1="11.15" x2="-26.2509" y2="-7.0618" width="0.1524" layer="47"/>
 <wire x1="-26.2509" y1="11.15" x2="-26.3779" y2="10.896" width="0.1524" layer="47"/>
@@ -879,8 +876,8 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="-15.621" y1="10.605" x2="-14.859" y2="10.605" width="0.508" layer="51" curve="-180"/>
 <wire x1="-18.7579" y1="8.7" x2="-19.5199" y2="8.7" width="0.508" layer="22" curve="-180"/>
 <wire x1="-19.5199" y1="8.7" x2="-18.7579" y2="8.7" width="0.508" layer="22" curve="-180"/>
-<text x="-10.8912" y="3.715" size="1.27" layer="27" ratio="6">&gt;Name</text>
-<text x="-9.3488" y="3.715" size="1.27" layer="27" ratio="6">&gt;Value</text>
+<text x="-11.43" y="3.81" size="1.27" layer="25" ratio="6">&gt;Name</text>
+<text x="-11.43" y="2.54" size="1.27" layer="27" ratio="6">&gt;Value</text>
 </package>
 <package name="DPAK-2">
 <wire x1="4.03" y1="3.27" x2="4.03" y2="-3.27" width="0.127" layer="51"/>
@@ -1037,7 +1034,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="13" y1="17.714" x2="12.746" y2="17.587" width="0.1524" layer="47"/>
 <wire x1="12.746" y1="17.841" x2="12.746" y2="17.587" width="0.1524" layer="47"/>
 <wire x1="0" y1="0" x2="15.921" y2="0" width="0.1524" layer="47"/>
-<wire x1="0" y1="0" x2="15.921" y2="0" width="0.1524" layer="47"/>
 <wire x1="15.54" y1="0" x2="15.54" y2="1.27" width="0.1524" layer="47"/>
 <wire x1="15.54" y1="0" x2="15.54" y2="-1.27" width="0.1524" layer="47"/>
 <wire x1="15.54" y1="0" x2="15.413" y2="0.254" width="0.1524" layer="47"/>
@@ -1046,7 +1042,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="15.54" y1="0" x2="15.413" y2="-0.254" width="0.1524" layer="47"/>
 <wire x1="15.54" y1="0" x2="15.667" y2="-0.254" width="0.1524" layer="47"/>
 <wire x1="15.413" y1="-0.254" x2="15.667" y2="-0.254" width="0.1524" layer="47"/>
-<wire x1="-2.5" y1="7.3" x2="-12.025" y2="7.3" width="0.1524" layer="47"/>
 <wire x1="5.25" y1="0" x2="-12.025" y2="0" width="0.1524" layer="47"/>
 <wire x1="-11.644" y1="7.3" x2="-11.644" y2="0" width="0.1524" layer="47"/>
 <wire x1="-11.644" y1="7.3" x2="-11.771" y2="7.046" width="0.1524" layer="47"/>
@@ -1055,7 +1050,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="-11.644" y1="0" x2="-11.771" y2="0.254" width="0.1524" layer="47"/>
 <wire x1="-11.644" y1="0" x2="-11.517" y2="0.254" width="0.1524" layer="47"/>
 <wire x1="-11.771" y1="0.254" x2="-11.517" y2="0.254" width="0.1524" layer="47"/>
-<wire x1="-2.5" y1="7.3" x2="-10.755" y2="7.3" width="0.1524" layer="47"/>
+<wire x1="-2.5" y1="7.3" x2="-12.025" y2="7.3" width="0.1524" layer="47"/>
 <wire x1="-2.5" y1="-4.7" x2="-10.755" y2="-4.7" width="0.1524" layer="47"/>
 <wire x1="-10.374" y1="7.3" x2="-10.374" y2="-4.7" width="0.1524" layer="47"/>
 <wire x1="-10.374" y1="7.3" x2="-10.501" y2="7.046" width="0.1524" layer="47"/>
@@ -1091,8 +1086,8 @@ Source: http://www.irf.com/product-info/datasheets/data/irfr5305pbf.pdf</descrip
 <wire x1="-0.381" y1="1.905" x2="0.381" y2="1.905" width="0.508" layer="51" curve="-180"/>
 <wire x1="-2.881" y1="0" x2="-3.643" y2="0" width="0.508" layer="22" curve="-180"/>
 <wire x1="-3.643" y1="0" x2="-2.881" y2="0" width="0.508" layer="22" curve="-180"/>
-<text x="1.9788" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Name</text>
-<text x="3.5212" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Value</text>
+<text x="1.27" y="5.08" size="1.27" layer="25" ratio="6">&gt;Name</text>
+<text x="1.27" y="3.81" size="1.27" layer="27" ratio="6">&gt;Value</text>
 </package>
 <package name="RJ45-KY-942">
 <description>&lt;b&gt;Mod. Jack, Right Angle, 8 posiotion, 8 contatcs&lt;/b&gt; RJ45&lt;p&gt;
