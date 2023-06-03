@@ -14130,7 +14130,7 @@ Source: www.kingbright.com</description>
 <attribute name="DRAWING_TITLE" value="MEB Schalterwerk Projekt"/>
 <attribute name="LICENSE" value="Licensed by the Solderpad Hardware License V2.0"/>
 <attribute name="REVIEWER" value="n/a"/>
-<attribute name="REVISION" value="A"/>
+<attribute name="REVISION" value="A4"/>
 <attribute name="YEAR" value="2023"/>
 </attributes>
 <variantdefs>
