@@ -14104,7 +14104,7 @@ bottom/top edge of the board.</text>
 <text x="5.08" y="5.08" size="1.27" layer="97">Veränderungen im Schalterwerk:
 - Einspeisung für Weichenstellstrom +36V.
 - Am Batteriewechsler muss man Anschlüsse
-  002 und 004 umtauschen, damit die Richtung
+  001 und 003 umtauschen, damit die Richtung
   des Überwachungsstromes den Stellstrom gleicht.
 - 162 muss geerdet werden (z.B. Klemme 003).
 - Die Diode am Weichenüberwachungsmagnet soll 
