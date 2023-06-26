@@ -1543,16 +1543,16 @@ Source: GLX-S-88M.pdf</description>
 <text x="-2.301409375" y="-5.00306875" size="1.27078125" layer="27">&gt;VALUE</text>
 <circle x="-2.8" y="3.1" radius="0.12" width="0.24" layer="21"/>
 <circle x="-2.8" y="3.1" radius="0.12" width="0.24" layer="51"/>
-<smd name="1" x="-1.495" y="2.54" dx="1.23" dy="0.63" layer="1" roundness="25"/>
-<smd name="2" x="-1.495" y="1.27" dx="1.23" dy="0.63" layer="1" roundness="25"/>
-<smd name="3" x="-1.495" y="0" dx="1.23" dy="0.63" layer="1" roundness="25"/>
-<smd name="4" x="-1.495" y="-1.27" dx="1.23" dy="0.63" layer="1" roundness="25"/>
-<smd name="5" x="-1.495" y="-2.54" dx="1.23" dy="0.63" layer="1" roundness="25"/>
-<smd name="6" x="1.495" y="-2.54" dx="1.23" dy="0.63" layer="1" roundness="25" rot="R180"/>
-<smd name="7" x="1.495" y="-1.27" dx="1.23" dy="0.63" layer="1" roundness="25" rot="R180"/>
-<smd name="8" x="1.495" y="0" dx="1.23" dy="0.63" layer="1" roundness="25" rot="R180"/>
-<smd name="9" x="1.495" y="1.27" dx="1.23" dy="0.63" layer="1" roundness="25" rot="R180"/>
-<smd name="10" x="1.495" y="2.54" dx="1.23" dy="0.63" layer="1" roundness="25" rot="R180"/>
+<smd name="1" x="-1.695" y="2.54" dx="1.63" dy="0.63" layer="1" roundness="25"/>
+<smd name="2" x="-1.695" y="1.27" dx="1.63" dy="0.63" layer="1" roundness="25"/>
+<smd name="3" x="-1.695" y="0" dx="1.63" dy="0.63" layer="1" roundness="25"/>
+<smd name="4" x="-1.695" y="-1.27" dx="1.63" dy="0.63" layer="1" roundness="25"/>
+<smd name="5" x="-1.695" y="-2.54" dx="1.63" dy="0.63" layer="1" roundness="25"/>
+<smd name="6" x="1.695" y="-2.54" dx="1.63" dy="0.63" layer="1" roundness="25" rot="R180"/>
+<smd name="7" x="1.695" y="-1.27" dx="1.63" dy="0.63" layer="1" roundness="25" rot="R180"/>
+<smd name="8" x="1.695" y="0" dx="1.63" dy="0.63" layer="1" roundness="25" rot="R180"/>
+<smd name="9" x="1.695" y="1.27" dx="1.63" dy="0.63" layer="1" roundness="25" rot="R180"/>
+<smd name="10" x="1.695" y="2.54" dx="1.63" dy="0.63" layer="1" roundness="25" rot="R180"/>
 </package>
 <package name="RES_CTS74X_6P4X1P6_CTS">
 <smd name="1" x="-1.0414" y="2.8" dx="0.635" dy="0.5588" layer="1"/>
