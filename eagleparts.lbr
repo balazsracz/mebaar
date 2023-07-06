@@ -1989,6 +1989,16 @@ Source: GLX-S-88M.pdf</description>
 <package name="M4-SCREW-HOLE">
 <pad name="P$1" x="0" y="0" drill="4" diameter="10"/>
 </package>
+<package name="M4-SCREW-HEAD">
+<smd name="P$2" x="0" y="0" dx="10" dy="9" layer="1" roundness="50"/>
+<smd name="P$1" x="0" y="0" dx="10" dy="9" layer="16" roundness="50"/>
+<wire x1="-4.1" y1="0" x2="-2.05" y2="3.55" width="0.0762" layer="46"/>
+<wire x1="-2.05" y1="3.55" x2="2.05" y2="3.55" width="0.0762" layer="46"/>
+<wire x1="2.05" y1="3.55" x2="4.1" y2="0" width="0.0762" layer="46"/>
+<wire x1="4.1" y1="0" x2="2.05" y2="-3.55" width="0.0762" layer="46"/>
+<wire x1="2.05" y1="-3.55" x2="-2.05" y2="-3.55" width="0.0762" layer="46"/>
+<wire x1="-2.05" y1="-3.55" x2="-4.1" y2="0" width="0.0762" layer="46"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="D-PAK_TO252AA" urn="urn:adsk.eagle:package:29503/2" type="model">
@@ -3572,6 +3582,14 @@ TE Connectivity AMP 1-640457-0</description>
 <device name="" package="M4-SCREW-HOLE">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HEAD" package="M4-SCREW-HEAD">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1 P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
