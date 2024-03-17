@@ -6330,7 +6330,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <attribute name="PAGE" value="Input ports"/>
 </part>
 <part name="FRAME1" library="trainlib" deviceset="FRAME_A_L" device="" value="1/1">
-<attribute name="PAGE" value="Input ports"/>
+<attribute name="DRAWING_TITLE" value="MEB Schalterwerk Projekt"/>
+<attribute name="PAGE" value="Lampenisolation"/>
 </part>
 <part name="X2" library="eagleparts" deviceset="JP6-FLAT" device="FEMALE" value="UPLINK"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
