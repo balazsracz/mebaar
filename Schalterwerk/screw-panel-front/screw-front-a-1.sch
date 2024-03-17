@@ -296,6 +296,106 @@
 <text x="1.27" y="5.08" size="1.27" layer="25" ratio="6">&gt;Name</text>
 <text x="1.27" y="3.81" size="1.27" layer="27" ratio="6">&gt;Value</text>
 </package>
+<package name="SJW-O">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
+<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
+<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
+<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
+<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
+<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
+<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
+<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
+<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
+<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
+<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
+<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
+<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
+</package>
+<package name="SJ-RND">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.143" y1="-1.397" x2="-1.143" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="1.397" x2="1.397" y2="1.143" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.397" y1="1.143" x2="-1.143" y2="1.397" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.397" y1="-1.143" x2="-1.143" y2="-1.397" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.143" y1="-1.397" x2="1.397" y2="-1.143" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.143" x2="1.397" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-1.143" x2="-1.397" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="1.397" x2="1.143" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.27" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<text x="-1.651" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.6096" layer="29" curve="-270" cap="flat"/>
+<smd name="2" x="0.889" y="0" dx="0.8128" dy="0.4064" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="1" x="-0.381" y="0" dx="1.016" dy="0.508" layer="1" stop="no" cream="no"/>
+<circle x="0" y="0" radius="0.283978125" width="0.3048" layer="31"/>
+<circle x="0" y="0" radius="0.283978125" width="0.3048" layer="1"/>
+<circle x="0" y="0" radius="0.283978125" width="0.3048" layer="29"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.6096" layer="1" curve="-270" cap="flat"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.6096" layer="1" curve="-270" cap="flat"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.6096" layer="31" curve="-270" cap="flat"/>
+</package>
+<package name="SJ_RND2">
+<text x="-1.397" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<smd name="P$1" x="-0.254" y="0" dx="1.016" dy="0.508" layer="1" rot="R180"/>
+<smd name="P$2" x="1.016" y="0" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<wire x1="1.143" y1="-1.397" x2="-1.143" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="1.397" x2="1.397" y2="1.143" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.397" y1="1.143" x2="-1.143" y2="1.397" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.397" y1="-1.143" x2="-1.143" y2="-1.397" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.143" y1="-1.397" x2="1.397" y2="-1.143" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.143" x2="1.397" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-1.143" x2="-1.397" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="1.397" x2="1.143" y2="1.397" width="0.1524" layer="21"/>
+<polygon width="0.127" layer="29">
+<vertex x="-0.3048" y="0.254"/>
+<vertex x="-0.3048" y="0.3048" curve="-270"/>
+<vertex x="-0.3048" y="-0.3048"/>
+<vertex x="-0.3048" y="-0.254"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.508" y="0.508"/>
+<vertex x="-0.889" y="0.889" curve="-270"/>
+<vertex x="-0.889" y="-0.889"/>
+<vertex x="-0.508" y="-0.508" curve="270"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-0.3048" y="0.254"/>
+<vertex x="-0.3048" y="0.3048" curve="-270"/>
+<vertex x="-0.3048" y="-0.3048"/>
+<vertex x="-0.3048" y="-0.254"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-0.508" y="0.508"/>
+<vertex x="-0.889" y="0.889" curve="-270"/>
+<vertex x="-0.889" y="-0.889"/>
+<vertex x="-0.508" y="-0.508" curve="270"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHD1">
@@ -329,6 +429,16 @@
 <wire x1="12.7" y1="-10.16" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
 <text x="4.1646" y="5.3086" size="2.083" layer="95" ratio="6">&gt;Name</text>
+</symbol>
+<symbol name="SJ-O">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -368,6 +478,41 @@ DigiKey 277-6404-ND</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="1984989" constant="no"/>
 <attribute name="MFR_NAME" value="Phoenix Contact" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SJ" prefix="SJ" uservalue="yes">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SJ-O" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W" package="SJW-O">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SJ-RND">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RND2" package="SJ_RND2">
+<connects>
+<connect gate="1" pin="1" pad="P$1"/>
+<connect gate="1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -696,6 +841,7 @@ DigiKey 277-6404-ND</description>
 <part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="X3" library="eagleparts" deviceset="PHNX_4P_350" device="CONN_1984989_PXC"/>
 <part name="X4" library="eagleparts" deviceset="PHNX_4P_350" device="CONN_1984989_PXC"/>
+<part name="SJ1" library="eagleparts" deviceset="SJ" device="RND2"/>
 </parts>
 <sheets>
 <sheet>
@@ -797,6 +943,10 @@ DigiKey 277-6404-ND</description>
 </instance>
 <instance part="X4" gate="A" x="177.8" y="119.38" smashed="yes">
 <attribute name="NAME" x="181.9646" y="124.6886" size="2.083" layer="95" ratio="6"/>
+</instance>
+<instance part="SJ1" gate="1" x="20.32" y="123.444" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.78" y="120.904" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="24.13" y="120.904" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -919,6 +1069,9 @@ DigiKey 277-6404-ND</description>
 <wire x1="25.4" y1="132.08" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
 <junction x="25.4" y="132.08"/>
+<pinref part="SJ1" gate="1" pin="2"/>
+<wire x1="25.4" y1="132.08" x2="20.32" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="132.08" x2="20.32" y2="128.524" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -932,6 +1085,9 @@ DigiKey 277-6404-ND</description>
 <wire x1="25.4" y1="114.3" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 <junction x="25.4" y="114.3"/>
+<pinref part="SJ1" gate="1" pin="1"/>
+<wire x1="25.4" y1="114.3" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="114.3" x2="20.32" y2="118.364" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">

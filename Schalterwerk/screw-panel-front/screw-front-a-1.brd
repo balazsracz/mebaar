@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -147,7 +147,7 @@
 <wire x1="88" y1="0" x2="88" y2="66" width="0" layer="20"/>
 <wire x1="88" y1="66" x2="-0.12" y2="66" width="0" layer="20"/>
 <wire x1="-0.12" y1="66" x2="-0.12" y2="0" width="0" layer="20"/>
-<text x="39.464" y="58.184" size="1.27" layer="25" font="vector" ratio="10">(c) Balazs Racz
+<text x="5.816" y="33.464" size="1.27" layer="25" font="vector" ratio="10" rot="R90">(c) Balazs Racz
 20230617</text>
 <text x="11" y="63" size="1.778" layer="25">&gt;N01</text>
 <text x="4.46" y="13" size="1.778" layer="25" align="center-right">&gt;N01</text>
@@ -279,6 +279,43 @@
 <wire x1="-3.643" y1="0" x2="-2.881" y2="0" width="0.508" layer="22" curve="-180"/>
 <text x="1.27" y="5.08" size="1.27" layer="25" ratio="6">&gt;Name</text>
 <text x="1.27" y="3.81" size="1.27" layer="27" ratio="6">&gt;Value</text>
+</package>
+<package name="SJ_RND2">
+<text x="-1.397" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<smd name="P$1" x="-0.254" y="0" dx="1.016" dy="0.508" layer="1" rot="R180"/>
+<smd name="P$2" x="1.016" y="0" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<wire x1="1.143" y1="-1.397" x2="-1.143" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="1.397" x2="1.397" y2="1.143" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.397" y1="1.143" x2="-1.143" y2="1.397" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.397" y1="-1.143" x2="-1.143" y2="-1.397" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.143" y1="-1.397" x2="1.397" y2="-1.143" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.143" x2="1.397" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-1.143" x2="-1.397" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="1.397" x2="1.143" y2="1.397" width="0.1524" layer="21"/>
+<polygon width="0.127" layer="29">
+<vertex x="-0.3048" y="0.254"/>
+<vertex x="-0.3048" y="0.3048" curve="-270"/>
+<vertex x="-0.3048" y="-0.3048"/>
+<vertex x="-0.3048" y="-0.254"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.508" y="0.508"/>
+<vertex x="-0.889" y="0.889" curve="-270"/>
+<vertex x="-0.889" y="-0.889"/>
+<vertex x="-0.508" y="-0.508" curve="270"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-0.3048" y="0.254"/>
+<vertex x="-0.3048" y="0.3048" curve="-270"/>
+<vertex x="-0.3048" y="-0.3048"/>
+<vertex x="-0.3048" y="-0.254"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-0.508" y="0.508"/>
+<vertex x="-0.889" y="0.889" curve="-270"/>
+<vertex x="-0.889" y="-0.889"/>
+<vertex x="-0.508" y="-0.508" curve="270"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -588,17 +625,17 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,3" package3d_urn="urn:adsk.eagle:package:14278/1" value="MOUNT-HOLE3.3" x="47.833" y="41.93" smashed="yes" rot="MR0">
-<attribute name="POPULARITY" value="3" x="47.833" y="41.93" size="1.27" layer="28" font="vector" rot="MR0" display="off"/>
+<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,3" package3d_urn="urn:adsk.eagle:package:14278/1" value="MOUNT-HOLE3.3" x="4.833" y="60.93" smashed="yes" rot="MR0">
+<attribute name="POPULARITY" value="3" x="4.833" y="60.93" size="1.27" layer="28" font="vector" rot="MR0" display="off"/>
 </element>
-<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,3" package3d_urn="urn:adsk.eagle:package:14278/1" value="MOUNT-HOLE3.3" x="60.833" y="34.08" smashed="yes" rot="MR0">
-<attribute name="POPULARITY" value="3" x="60.833" y="34.08" size="1.27" layer="28" font="vector" rot="MR0" display="off"/>
+<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,3" package3d_urn="urn:adsk.eagle:package:14278/1" value="MOUNT-HOLE3.3" x="4.833" y="25.08" smashed="yes" rot="MR0">
+<attribute name="POPULARITY" value="3" x="4.833" y="25.08" size="1.27" layer="28" font="vector" rot="MR0" display="off"/>
 </element>
-<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,3" package3d_urn="urn:adsk.eagle:package:14278/1" value="MOUNT-HOLE3.3" x="65.92" y="5.08" smashed="yes" rot="MR0">
-<attribute name="POPULARITY" value="3" x="65.92" y="5.08" size="1.27" layer="28" font="vector" rot="MR0" display="off"/>
+<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,3" package3d_urn="urn:adsk.eagle:package:14278/1" value="MOUNT-HOLE3.3" x="44.92" y="25.08" smashed="yes" rot="MR0">
+<attribute name="POPULARITY" value="3" x="44.92" y="25.08" size="1.27" layer="28" font="vector" rot="MR0" display="off"/>
 </element>
-<element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,3" package3d_urn="urn:adsk.eagle:package:14278/1" value="MOUNT-HOLE3.3" x="63.92" y="58.93" smashed="yes" rot="MR0">
-<attribute name="POPULARITY" value="3" x="63.92" y="58.93" size="1.27" layer="28" font="vector" rot="MR0" display="off"/>
+<element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,3" package3d_urn="urn:adsk.eagle:package:14278/1" value="MOUNT-HOLE3.3" x="44.92" y="60.93" smashed="yes" rot="MR0">
+<attribute name="POPULARITY" value="3" x="44.92" y="60.93" size="1.27" layer="28" font="vector" rot="MR0" display="off"/>
 </element>
 <element name="J1" library="eagleparts" package="M4-SCREW-HOLE" value="M4-SCREW-HOLE" x="20" y="60" smashed="yes"/>
 <element name="J2" library="eagleparts" package="M4-SCREW-HOLE" value="M4-SCREW-HOLE" x="32" y="60" smashed="yes"/>
@@ -671,6 +708,9 @@ design rules under a new name.</description>
 <attribute name="MFR_NAME" value="Phoenix Contact" x="-72" y="-83" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.27" y="-62.92" size="1.27" layer="25" ratio="6"/>
 <attribute name="VALUE" x="9.27" y="-64.19" size="1.27" layer="27" ratio="6"/>
+</element>
+<element name="SJ1" library="eagleparts" package="SJ_RND2" value="" x="46.228" y="10.3632" smashed="yes" rot="R90">
+<attribute name="NAME" x="44.45" y="8.9662" size="1.27" layer="25" ratio="10" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -801,15 +841,21 @@ design rules under a new name.</description>
 <contactref element="JP3" pad="1"/>
 <contactref element="JP3" pad="2"/>
 <contactref element="JP3" pad="3"/>
-<wire x1="46.228" y1="15.748" x2="46.228" y2="13.208" width="0" layer="19" extent="1-1"/>
-<wire x1="46.228" y1="18.288" x2="46.228" y2="15.748" width="0" layer="19" extent="1-1"/>
+<wire x1="46.228" y1="18.288" x2="46.228" y2="15.748" width="0.8128" layer="1"/>
+<wire x1="46.228" y1="15.748" x2="46.228" y2="13.208" width="0.8128" layer="1"/>
+<contactref element="SJ1" pad="P$2"/>
+<wire x1="46.228" y1="13.208" x2="46.228" y2="11.42120625" width="0.8128" layer="1"/>
+<wire x1="46.228" y1="11.42120625" x2="46.22800625" y2="11.4212" width="0.8128" layer="1"/>
+<wire x1="46.228" y1="11.3792" x2="46.228" y2="11.42120625" width="0.508" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="JP4" pad="1"/>
 <contactref element="JP4" pad="2"/>
 <contactref element="JP4" pad="3"/>
-<wire x1="46.228" y1="5.588" x2="46.228" y2="3.048" width="0" layer="19" extent="1-1"/>
-<wire x1="46.228" y1="8.128" x2="46.228" y2="5.588" width="0" layer="19" extent="1-1"/>
+<wire x1="46.228" y1="3.048" x2="46.228" y2="5.588" width="0.8128" layer="1"/>
+<wire x1="46.228" y1="5.588" x2="46.228" y2="8.128" width="0.8128" layer="1"/>
+<contactref element="SJ1" pad="P$1"/>
+<wire x1="46.228" y1="8.128" x2="46.228" y2="10.1092" width="0.508" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="J9" pad="P$1"/>
