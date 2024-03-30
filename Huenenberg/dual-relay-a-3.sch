@@ -8857,6 +8857,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="81.28" y1="144.78" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="144.78" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
 <junction x="66.04" y="121.92"/>
+<label x="66.04" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
@@ -8894,7 +8895,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="53.34" y="63.5"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="CTRL1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="J18" gate="G$1" pin="1"/>
@@ -8908,6 +8909,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="81.28" y1="149.86" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="149.86" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
 <junction x="38.1" y="58.42"/>
+<label x="66.04" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9030,7 +9032,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="106.68" y="144.78"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="CTRL2" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="129.54" y1="149.86" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
@@ -9044,6 +9046,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="129.54" y1="58.42" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 <junction x="129.54" y="53.34"/>
 <junction x="129.54" y="58.42"/>
+<label x="96.52" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
