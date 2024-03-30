@@ -378,6 +378,8 @@
 </package>
 <package name="LARGE-SOLDERPAD">
 <pad name="P$1" x="0" y="0" drill="2.7" diameter="4" shape="offset" rot="R90"/>
+<text x="0" y="-2.54" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0" y="6.35" size="1.27" layer="21" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="LARGE-SOLDERPAD-WITH-HOLES">
 <pad name="P$1" x="0" y="0" drill="2.2" diameter="3" shape="offset" rot="R90"/>
@@ -445,7 +447,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LARGE-SOLDERPAD" prefix="J">
+<deviceset name="LARGE-SOLDERPAD" prefix="J" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="PINHD1" x="0" y="0"/>
 </gates>
@@ -8524,52 +8526,54 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="351" device="" package3d_urn="urn:adsk.eagle:package:24300/1"/>
 <part name="Q1" library="eagleparts" deviceset="NPN-23" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="JP4" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="JP3" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="JP2" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="JP1" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="JN1" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="JN2" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="JN3" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J8" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
+<part name="JP4" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="12V"/>
+<part name="JP3" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="12V"/>
+<part name="JP2" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="12V"/>
+<part name="JP1" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="12V"/>
+<part name="JN1" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="GND"/>
+<part name="JN2" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="GND"/>
+<part name="JN3" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="GND"/>
+<part name="J8" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="GND"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="J9" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J10" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
+<part name="J9" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="LOW"/>
+<part name="J10" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="HI"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J11" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J12" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J13" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J14" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J15" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
+<part name="J11" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="REV"/>
+<part name="J12" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="NORM"/>
+<part name="J13" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="REV"/>
+<part name="J14" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="NORM"/>
+<part name="J15" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="COM"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="MINIMELF" package3d_urn="urn:adsk.eagle:package:43429/2"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="351" device="" package3d_urn="urn:adsk.eagle:package:24300/1"/>
 <part name="Q2" library="eagleparts" deviceset="NPN-23" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="J16" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J17" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
+<part name="J16" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="LOW"/>
+<part name="J17" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="HI"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J18" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J19" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J20" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J21" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
-<part name="J22" library="eagleparts" deviceset="LARGE-SOLDERPAD" device=""/>
+<part name="J18" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="REV"/>
+<part name="J19" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="NORM"/>
+<part name="J20" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="REV"/>
+<part name="J21" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="NORM"/>
+<part name="J22" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="COM"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="MINIMELF" package3d_urn="urn:adsk.eagle:package:43429/2"/>
-<part name="IN" library="trainlib" deviceset="PINHD-2X5" device="CN" value="PORTA"/>
+<part name="IN" library="trainlib" deviceset="PINHD-2X5" device="CN" value="IN"/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="OUT" library="trainlib" deviceset="PINHD-2X5" device="CN" value="PORTA"/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="OUT" library="trainlib" deviceset="PINHD-2X5" device="CN" value="OUT"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SJ2" library="trainlib" deviceset="SJ" device="RND2"/>
-<part name="SJ1" library="trainlib" deviceset="SJ" device="RND2"/>
-<part name="SJ4" library="trainlib" deviceset="SJ" device="RND2"/>
-<part name="SJ3" library="trainlib" deviceset="SJ" device="RND2"/>
+<part name="SJ2" library="trainlib" deviceset="SJ" device="RND2" value="CH1_ARD"/>
+<part name="SJ1" library="trainlib" deviceset="SJ" device="RND2" value="CH1_ACTLOW"/>
+<part name="SJ4" library="trainlib" deviceset="SJ" device="RND2" value="CH2_ARD"/>
+<part name="SJ3" library="trainlib" deviceset="SJ" device="RND2" value="CH2_ACTLOW"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="SJ5" library="trainlib" deviceset="SJ" device="RND2" value="12VIN"/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="JP5" library="eagleparts" deviceset="LARGE-SOLDERPAD" device="" value="XTRA"/>
 </parts>
 <sheets>
 <sheet>
@@ -8649,9 +8653,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="GND3" gate="1" x="91.44" y="68.58" smashed="yes">
 <attribute name="VALUE" x="88.9" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="J11" gate="G$1" x="81.28" y="91.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.105" y="85.09" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="86.36" y="85.09" size="1.778" layer="96" rot="R90"/>
+<instance part="J11" gate="G$1" x="81.28" y="91.44" smashed="yes" rot="MR90">
+<attribute name="NAME" x="84.455" y="85.09" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="76.2" y="85.09" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="J12" gate="G$1" x="101.6" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="98.425" y="85.09" size="1.778" layer="95" rot="R90"/>
@@ -8743,9 +8747,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="77.47" y="113.665" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="77.47" y="132.08" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="P+4" gate="1" x="106.68" y="127" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="109.22" y="121.92" size="1.778" layer="96" rot="MR90"/>
-</instance>
 <instance part="GND6" gate="1" x="66.04" y="116.84" smashed="yes">
 <attribute name="VALUE" x="63.5" y="114.3" size="1.778" layer="96"/>
 </instance>
@@ -8780,6 +8781,17 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="H4" gate="G$1" x="154.94" y="114.3" smashed="yes">
 <attribute name="NAME" x="156.972" y="114.8842" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.972" y="111.8362" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ5" gate="1" x="116.84" y="142.24" smashed="yes">
+<attribute name="NAME" x="114.3" y="144.78" size="1.778" layer="95"/>
+<attribute name="VALUE" x="114.3" y="138.43" size="1.778" layer="96"/>
+</instance>
+<instance part="P+5" gate="1" x="127" y="147.32" smashed="yes">
+<attribute name="VALUE" x="124.46" y="142.24" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP5" gate="G$1" x="114.3" y="132.08" smashed="yes">
+<attribute name="NAME" x="107.95" y="135.255" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.95" y="127" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8823,6 +8835,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="137.16" y1="73.66" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
 <junction x="147.32" y="78.74"/>
+</segment>
+<segment>
+<pinref part="SJ5" gate="1" pin="2"/>
+<wire x1="121.92" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<wire x1="127" y1="142.24" x2="127" y2="144.78" width="0.1524" layer="91"/>
+<junction x="127" y="142.24"/>
+<wire x1="127" y1="121.92" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="OUT" gate="A" pin="6"/>
+<wire x1="88.9" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9034,12 +9056,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="IN" gate="A" pin="6"/>
 <pinref part="P+21" gate="1" pin="+5V"/>
 <wire x1="88.9" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="OUT" gate="A" pin="6"/>
-<wire x1="88.9" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="106.68" y1="121.92" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="SJ5" gate="1" pin="1"/>
+<wire x1="111.76" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="142.24" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
+<junction x="106.68" y="144.78"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -9101,9 +9121,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <pinref part="IN" gate="A" pin="10"/>
 <wire x1="88.9" y1="139.7" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="139.7" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="139.7" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="OUT" gate="A" pin="8"/>
+<wire x1="96.52" y1="132.08" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="124.46" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="132.08" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
+<junction x="96.52" y="132.08"/>
 </segment>
 </net>
 <net name="N$83" class="0">
