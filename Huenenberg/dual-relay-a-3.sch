@@ -8858,6 +8858,24 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="66.04" y1="144.78" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
 <junction x="66.04" y="121.92"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="71.12" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="71.12" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="63.5" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="55.88" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="48.26" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
+<junction x="12.7" y="48.26"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
+<junction x="12.7" y="55.88"/>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
+<junction x="12.7" y="63.5"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -8999,26 +9017,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="K2" gate="3" pin="P"/>
 <pinref part="J21" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="45.72" x2="180.34" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="JN4" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="71.12" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="12.7" y1="71.12" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="63.5" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="55.88" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="48.26" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
-<junction x="12.7" y="48.26"/>
-<pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
-<junction x="12.7" y="55.88"/>
-<pinref part="J6" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
-<junction x="12.7" y="63.5"/>
 </segment>
 </net>
 <net name="+5V" class="0">
