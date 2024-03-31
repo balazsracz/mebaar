@@ -1627,12 +1627,12 @@ design rules under a new name.</description>
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="50mil"/>
+<param name="RoutingGrid" value="12.5mil"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="0"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="-"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -1647,7 +1647,7 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="|"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -2505,7 +2505,7 @@ design rules under a new name.</description>
 <wire x1="63.5" y1="52.39" x2="86.36" y2="57.15" width="0" layer="19" extent="16-16"/>
 <wire x1="59.69" y1="49.21" x2="63.5" y2="52.39" width="0" layer="19" extent="16-16"/>
 <wire x1="56.2" y1="52.24" x2="59.69" y2="49.21" width="0" layer="19" extent="16-16"/>
-<wire x1="70.8" y1="39.2" x2="63.5" y2="52.39" width="0" layer="19" extent="16-16"/>
+<wire x1="70.8" y1="39.2" x2="59.69" y2="49.21" width="0" layer="19" extent="16-16"/>
 <wire x1="71.12" y1="32.07" x2="70.8" y2="39.2" width="0" layer="19" extent="16-16"/>
 <wire x1="75.88" y1="34.12" x2="71.12" y2="32.07" width="0" layer="19" extent="16-16"/>
 <wire x1="75.88" y1="29.04" x2="75.88" y2="34.12" width="0" layer="19" extent="16-16"/>
@@ -2516,8 +2516,8 @@ design rules under a new name.</description>
 <wire x1="81.28" y1="21.91" x2="84.14" y2="21.76" width="0" layer="19" extent="16-16"/>
 <wire x1="74.93" y1="21.91" x2="81.28" y2="21.91" width="0" layer="19" extent="16-16"/>
 <wire x1="67.63" y1="21.76" x2="74.93" y2="21.91" width="0" layer="19" extent="16-16"/>
-<wire x1="60.96" y1="11.75" x2="67.63" y2="21.76" width="0" layer="19" extent="16-16"/>
-<wire x1="63.82" y1="11.6" x2="60.96" y2="11.75" width="0" layer="19" extent="16-16"/>
+<wire x1="63.82" y1="11.6" x2="67.63" y2="21.76" width="0" layer="19" extent="16-16"/>
+<wire x1="60.96" y1="11.75" x2="63.82" y2="11.6" width="0" layer="19" extent="16-16"/>
 <wire x1="62.23" y1="8.57" x2="63.82" y2="11.6" width="0" layer="19" extent="16-16"/>
 <wire x1="40.64" y1="52.39" x2="56.2" y2="52.24" width="0" layer="19" extent="16-16"/>
 <wire x1="40.64" y1="42.23" x2="40.64" y2="52.39" width="0" layer="19" extent="16-16"/>
@@ -2734,7 +2734,7 @@ design rules under a new name.</description>
 <signal name="N$21">
 <contactref element="DW34N" pad="A"/>
 <contactref element="R10" pad="1"/>
-<wire x1="59.47" y1="15.24" x2="60.96" y2="13.65" width="0" layer="19" extent="1-16"/>
+<wire x1="60.96" y1="13.65" x2="59.47" y2="15.24" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$22">
 <contactref element="DW34R" pad="A"/>
@@ -2875,7 +2875,7 @@ design rules under a new name.</description>
 <signal name="N$52">
 <contactref element="DW89N1" pad="A"/>
 <contactref element="R27" pad="1"/>
-<wire x1="59.47" y1="45.72" x2="59.69" y2="47.31" width="0" layer="19" extent="1-16"/>
+<wire x1="59.69" y1="47.31" x2="59.47" y2="45.72" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$53">
 <contactref element="DW1011N" pad="A"/>
