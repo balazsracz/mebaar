@@ -2001,6 +2001,42 @@ Source: GLX-S-88M.pdf</description>
 <wire x1="2.05" y1="-3.55" x2="-2.05" y2="-3.55" width="0.0762" layer="46"/>
 <wire x1="-2.05" y1="-3.55" x2="-4.1" y2="0" width="0.0762" layer="46"/>
 </package>
+<package name="SOT23-PCH">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<wire x1="0" y1="0.254" x2="0" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="0" y1="-0.254" x2="0" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="0" y1="0.254" x2="0.508" y2="0.254" width="0.127" layer="51"/>
+<wire x1="0.508" y1="0.254" x2="0.508" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="0.508" y1="-0.254" x2="0" y2="-0.254" width="0.127" layer="51"/>
+</package>
+<package name="SOT23-NCH">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<wire x1="-1.524" y1="0" x2="1.524" y2="0" width="0.127" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="D-PAK_TO252AA" urn="urn:adsk.eagle:package:29503/2" type="model">
@@ -3153,15 +3189,12 @@ Source: GLX-S-88M.pdf</description>
 <gate name="N-CH" symbol="N-MOS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23">
+<device name="" package="SOT23-NCH">
 <connects>
 <connect gate="N-CH" pin="D" pad="3"/>
 <connect gate="N-CH" pin="G" pad="1"/>
 <connect gate="N-CH" pin="S" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28738/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="21" constant="no"/>
@@ -3605,15 +3638,12 @@ TE Connectivity AMP 1-640457-0</description>
 <gate name="P-CH" symbol="IRFR9120NTRPBF" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23">
+<device name="" package="SOT23-PCH">
 <connects>
 <connect gate="P-CH" pin="D" pad="3"/>
 <connect gate="P-CH" pin="G" pad="1"/>
 <connect gate="P-CH" pin="S" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28738/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="21" constant="no"/>
