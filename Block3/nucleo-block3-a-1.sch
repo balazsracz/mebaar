@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -5275,6 +5275,104 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <smd name="7" x="2.455" y="0.635" dx="1.9" dy="0.6" layer="1" roundness="25"/>
 <smd name="8" x="2.455" y="1.905" dx="1.9" dy="0.6" layer="1" roundness="25"/>
 </package>
+<package name="NUCLEO_BRD_BASE64">
+<wire x1="-3.25" y1="77.42" x2="66.75" y2="77.42" width="0" layer="150" style="shortdash"/>
+<wire x1="66.75" y1="77.42" x2="66.75" y2="52.52" width="0" layer="150" style="shortdash"/>
+<wire x1="66.75" y1="52.52" x2="-3.25" y2="52.52" width="0" layer="150" style="shortdash"/>
+<wire x1="-3.25" y1="52.52" x2="-3.25" y2="77.42" width="0" layer="150" style="shortdash"/>
+<wire x1="-3.25" y1="-2.08" x2="-3.25" y2="51.92" width="0" layer="150" style="shortdash"/>
+<wire x1="-3.25" y1="51.92" x2="66.75" y2="51.92" width="0" layer="150" style="shortdash"/>
+<wire x1="66.75" y1="51.92" x2="66.75" y2="-2.08" width="0" layer="150" style="shortdash"/>
+<wire x1="66.75" y1="-2.08" x2="46.1" y2="-2.08" width="0" layer="150" style="shortdash"/>
+<wire x1="7.15" y1="-2.08" x2="10.16" y2="-5.08" width="0" layer="150" style="shortdash"/>
+<wire x1="10.16" y1="-5.08" x2="42.926" y2="-5.08" width="0" layer="150" style="shortdash"/>
+<wire x1="42.926" y1="-5.08" x2="46.116" y2="-2.07" width="0" layer="150" style="shortdash"/>
+<circle x="55.88" y="48.26" radius="1.796" width="0.127" layer="150"/>
+<circle x="7.62" y="49.53" radius="1.796" width="0.127" layer="150"/>
+<circle x="40.64" y="-2.54" radius="1.796" width="0.127" layer="150"/>
+<pad name="PA3" x="60.96" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="NC8-PF4" x="63.5" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC0" x="2.54" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC3" x="0" y="0" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC1" x="2.54" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC2" x="0" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="VBAT" x="0" y="5.08" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB0" x="2.54" y="5.08" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PF1-PH1" x="0" y="7.62" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA4" x="2.54" y="7.62" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA1" x="2.54" y="10.16" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PF0-PH0" x="0" y="10.16" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA0" x="2.54" y="12.7" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC15" x="0" y="12.7" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="NC3" x="2.54" y="15.24" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC14" x="0" y="15.24" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC13" x="0" y="17.78" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="VIN2" x="2.54" y="17.78" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB7" x="0" y="20.32" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="GND4" x="2.54" y="20.32" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="GND5" x="2.54" y="22.86" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="GND3" x="0" y="22.86" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="5V2" x="2.54" y="25.4" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA15" x="0" y="25.4" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="3V3" x="2.54" y="27.94" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA14" x="0" y="27.94" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA13" x="0" y="30.48" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="NRESET" x="2.54" y="30.48" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="NC1-PF7" x="0" y="33.02" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="IOREF2" x="2.54" y="33.02" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="NC4" x="2.54" y="35.56" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="NC2-PF6" x="0" y="35.56" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="NC7-PF5" x="63.5" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA2" x="60.96" y="2.54" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC4" x="63.5" y="5.08" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA10" x="60.96" y="5.08" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB3" x="60.96" y="7.62" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="AGND" x="63.5" y="7.62" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB5" x="60.96" y="10.16" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB13" x="63.5" y="10.16" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB14" x="63.5" y="12.7" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB4" x="60.96" y="12.7" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB15" x="63.5" y="15.24" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB10" x="60.96" y="15.24" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB1" x="63.5" y="17.78" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA8" x="60.96" y="17.78" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA9" x="60.96" y="20.32" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB2" x="63.5" y="20.32" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC7" x="60.96" y="22.86" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="GND8" x="63.5" y="22.86" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="NC6-PB11" x="63.5" y="25.4" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB6" x="60.96" y="25.4" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB12" x="63.5" y="27.94" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA7" x="60.96" y="27.94" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA11" x="63.5" y="30.48" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA6" x="60.96" y="30.48" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA5" x="60.96" y="33.02" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PA12" x="63.5" y="33.02" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="GND7" x="60.96" y="35.56" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="NC5-PD8" x="63.5" y="35.56" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="U5V" x="63.5" y="38.1" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="AVDD" x="60.96" y="38.1" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC5" x="63.5" y="40.64" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB9" x="60.96" y="40.64" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC6" x="63.5" y="43.18" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PB8" x="60.96" y="43.18" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC9" x="60.96" y="45.72" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC8" x="63.5" y="45.72" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="GND6" x="2.54" y="38.1" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="BOOT0" x="0" y="38.1" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="E5V" x="2.54" y="40.64" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="VDD" x="0" y="40.64" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC12" x="0" y="43.18" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PD2" x="2.54" y="43.18" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC10" x="0" y="45.72" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="PC11" x="2.54" y="45.72" drill="1" diameter="1.6764" shape="octagon" rot="R270"/>
+<rectangle x1="-1.27" y1="-41.91" x2="3.81" y2="-1.27" layer="39"/>
+<rectangle x1="59.69" y1="-41.91" x2="64.77" y2="-1.27" layer="39"/>
+<wire x1="-3.25" y1="-2.08" x2="7.16" y2="-2.08" width="0" layer="150" style="shortdash"/>
+<wire x1="-3.25" y1="-53.34" x2="-3.25" y2="-2.54" width="0" layer="150" style="shortdash"/>
+<wire x1="66.7501125" y1="-53.34" x2="66.7501125" y2="-2.54" width="0" layer="150" style="shortdash"/>
+<wire x1="66.7501125" y1="-53.34" x2="-3.25" y2="-53.34" width="0" layer="150" style="shortdash"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A-DS_09_A_KG-T2S">
@@ -5319,6 +5417,94 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pin name="!OUT_A" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
 <pin name="OUT_B" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
 <pin name="GND" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="NUCLEO_64_BASE">
+<wire x1="-17.78" y1="25.4" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="25.4" x2="-40.64" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="25.4" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="-25.4" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
+<text x="-26.162" y="-15.494" size="2.54" layer="94" rot="R90">MORPHO/L</text>
+<wire x1="40.64" y1="25.4" x2="40.64" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="40.64" y2="25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-25.4" x2="40.64" y2="-25.4" width="0.254" layer="94"/>
+<text x="30.48" y="-18.034" size="2.54" layer="94" rot="R90">MORPHO/R</text>
+<pin name="PC3" x="-45.72" y="-22.86" visible="pin" length="middle"/>
+<pin name="PC2" x="-45.72" y="-20.32" visible="pin" length="middle"/>
+<pin name="PF1-PH1" x="-45.72" y="-15.24" visible="pin" length="middle"/>
+<pin name="PF0-PH0" x="-45.72" y="-12.7" visible="pin" length="middle"/>
+<pin name="PC15" x="-45.72" y="-10.16" visible="pin" length="middle"/>
+<pin name="PC14" x="-45.72" y="-7.62" visible="pin" length="middle"/>
+<pin name="PC13" x="-45.72" y="-5.08" visible="pin" length="middle"/>
+<pin name="PB7" x="-45.72" y="-2.54" visible="pin" length="middle"/>
+<pin name="PA15" x="-45.72" y="2.54" visible="pin" length="middle"/>
+<pin name="PA14" x="-45.72" y="5.08" visible="pin" length="middle"/>
+<pin name="PA13" x="-45.72" y="7.62" visible="pin" length="middle"/>
+<pin name="BOOT0" x="-45.72" y="15.24" visible="pin" length="middle"/>
+<pin name="PC12" x="-45.72" y="20.32" visible="pin" length="middle"/>
+<pin name="PC10" x="-45.72" y="22.86" visible="pin" length="middle"/>
+<pin name="PC0" x="-12.7" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="PC1" x="-12.7" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="PB0" x="-12.7" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="PA4" x="-12.7" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="PA1" x="-12.7" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PA0" x="-12.7" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PC11" x="-12.7" y="22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="PD2" x="-12.7" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="PC9" x="12.7" y="22.86" visible="pin" length="middle"/>
+<pin name="PB8" x="12.7" y="20.32" visible="pin" length="middle"/>
+<pin name="PB9" x="12.7" y="17.78" visible="pin" length="middle"/>
+<pin name="PA5" x="12.7" y="10.16" visible="pin" length="middle"/>
+<pin name="PA6" x="12.7" y="7.62" visible="pin" length="middle"/>
+<pin name="PA7" x="12.7" y="5.08" visible="pin" length="middle"/>
+<pin name="PB6" x="12.7" y="2.54" visible="pin" length="middle"/>
+<pin name="PC7" x="12.7" y="0" visible="pin" length="middle"/>
+<pin name="PA9" x="12.7" y="-2.54" visible="pin" length="middle"/>
+<pin name="PA8" x="12.7" y="-5.08" visible="pin" length="middle"/>
+<pin name="PB10" x="12.7" y="-7.62" visible="pin" length="middle"/>
+<pin name="PB4" x="12.7" y="-10.16" visible="pin" length="middle"/>
+<pin name="PB5" x="12.7" y="-12.7" visible="pin" length="middle"/>
+<pin name="PB3" x="12.7" y="-15.24" visible="pin" length="middle"/>
+<pin name="PA10" x="12.7" y="-17.78" visible="pin" length="middle"/>
+<pin name="PA2" x="12.7" y="-20.32" visible="pin" length="middle"/>
+<pin name="PA3" x="12.7" y="-22.86" visible="pin" length="middle"/>
+<pin name="VDD" x="-45.72" y="17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND3" x="-45.72" y="0" visible="pin" length="middle" direction="pwr"/>
+<pin name="NC2-PF6" x="-45.72" y="12.7" visible="pin" length="middle"/>
+<pin name="NC1-PF7" x="-45.72" y="10.16" visible="pin" length="middle"/>
+<pin name="NC4" x="-12.7" y="12.7" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="NC3" x="-12.7" y="-7.62" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="GND4" x="-12.7" y="-2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND5" x="-12.7" y="0" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VIN2" x="-12.7" y="-5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBAT" x="-45.72" y="-17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="5V2" x="-12.7" y="2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="3V3" x="-12.7" y="5.08" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="NRESET" x="-12.7" y="7.62" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="IOREF2" x="-12.7" y="10.16" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="E5V" x="-12.7" y="17.78" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND6" x="-12.7" y="15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="AVDD" x="12.7" y="15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND7" x="12.7" y="12.7" visible="pin" length="middle" direction="pwr"/>
+<pin name="U5V" x="45.72" y="15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="PC8" x="45.72" y="22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="PC6" x="45.72" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="PC5" x="45.72" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="PA12" x="45.72" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PA11" x="45.72" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PB12" x="45.72" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PB2" x="45.72" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PB1" x="45.72" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PB15" x="45.72" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PB14" x="45.72" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PB13" x="45.72" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PC4" x="45.72" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="NC5-PD8" x="45.72" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="NC6-PB11" x="45.72" y="2.54" visible="pin" length="middle" direction="nc" rot="R180"/>
+<pin name="GND8" x="45.72" y="0" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="AGND" x="45.72" y="-15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="NC7-PF5" x="45.72" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="NC8-PF4" x="45.72" y="-22.86" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5378,6 +5564,96 @@ Male: digikey AE10968-ND</description>
 <attribute name="PARTREV" value="J"/>
 <attribute name="STANDARD" value="IPC 7351B"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NUCLEO_64_GENERIC" prefix="G">
+<gates>
+<gate name="G$1" symbol="NUCLEO_64_BASE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NUCLEO_BRD_BASE64">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="5V2" pad="5V2"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="AVDD" pad="AVDD"/>
+<connect gate="G$1" pin="BOOT0" pad="BOOT0"/>
+<connect gate="G$1" pin="E5V" pad="E5V"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="GND4" pad="GND4"/>
+<connect gate="G$1" pin="GND5" pad="GND5"/>
+<connect gate="G$1" pin="GND6" pad="GND6"/>
+<connect gate="G$1" pin="GND7" pad="GND7"/>
+<connect gate="G$1" pin="GND8" pad="GND8"/>
+<connect gate="G$1" pin="IOREF2" pad="IOREF2"/>
+<connect gate="G$1" pin="NC1-PF7" pad="NC1-PF7"/>
+<connect gate="G$1" pin="NC2-PF6" pad="NC2-PF6"/>
+<connect gate="G$1" pin="NC3" pad="NC3"/>
+<connect gate="G$1" pin="NC4" pad="NC4"/>
+<connect gate="G$1" pin="NC5-PD8" pad="NC5-PD8"/>
+<connect gate="G$1" pin="NC6-PB11" pad="NC6-PB11"/>
+<connect gate="G$1" pin="NC7-PF5" pad="NC7-PF5"/>
+<connect gate="G$1" pin="NC8-PF4" pad="NC8-PF4"/>
+<connect gate="G$1" pin="NRESET" pad="NRESET"/>
+<connect gate="G$1" pin="PA0" pad="PA0"/>
+<connect gate="G$1" pin="PA1" pad="PA1"/>
+<connect gate="G$1" pin="PA10" pad="PA10"/>
+<connect gate="G$1" pin="PA11" pad="PA11"/>
+<connect gate="G$1" pin="PA12" pad="PA12"/>
+<connect gate="G$1" pin="PA13" pad="PA13"/>
+<connect gate="G$1" pin="PA14" pad="PA14"/>
+<connect gate="G$1" pin="PA15" pad="PA15"/>
+<connect gate="G$1" pin="PA2" pad="PA2"/>
+<connect gate="G$1" pin="PA3" pad="PA3"/>
+<connect gate="G$1" pin="PA4" pad="PA4"/>
+<connect gate="G$1" pin="PA5" pad="PA5"/>
+<connect gate="G$1" pin="PA6" pad="PA6"/>
+<connect gate="G$1" pin="PA7" pad="PA7"/>
+<connect gate="G$1" pin="PA8" pad="PA8"/>
+<connect gate="G$1" pin="PA9" pad="PA9"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB10" pad="PB10"/>
+<connect gate="G$1" pin="PB12" pad="PB12"/>
+<connect gate="G$1" pin="PB13" pad="PB13"/>
+<connect gate="G$1" pin="PB14" pad="PB14"/>
+<connect gate="G$1" pin="PB15" pad="PB15"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6" pad="PB6"/>
+<connect gate="G$1" pin="PB7" pad="PB7"/>
+<connect gate="G$1" pin="PB8" pad="PB8"/>
+<connect gate="G$1" pin="PB9" pad="PB9"/>
+<connect gate="G$1" pin="PC0" pad="PC0"/>
+<connect gate="G$1" pin="PC1" pad="PC1"/>
+<connect gate="G$1" pin="PC10" pad="PC10"/>
+<connect gate="G$1" pin="PC11" pad="PC11"/>
+<connect gate="G$1" pin="PC12" pad="PC12"/>
+<connect gate="G$1" pin="PC13" pad="PC13"/>
+<connect gate="G$1" pin="PC14" pad="PC14"/>
+<connect gate="G$1" pin="PC15" pad="PC15"/>
+<connect gate="G$1" pin="PC2" pad="PC2"/>
+<connect gate="G$1" pin="PC3" pad="PC3"/>
+<connect gate="G$1" pin="PC4" pad="PC4"/>
+<connect gate="G$1" pin="PC5" pad="PC5"/>
+<connect gate="G$1" pin="PC6" pad="PC6"/>
+<connect gate="G$1" pin="PC7" pad="PC7"/>
+<connect gate="G$1" pin="PC8" pad="PC8"/>
+<connect gate="G$1" pin="PC9" pad="PC9"/>
+<connect gate="G$1" pin="PD2" pad="PD2"/>
+<connect gate="G$1" pin="PF0-PH0" pad="PF0-PH0"/>
+<connect gate="G$1" pin="PF1-PH1" pad="PF1-PH1"/>
+<connect gate="G$1" pin="U5V" pad="U5V"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="VIN2" pad="VIN2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5474,10 +5750,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="FRAME1" library="trainlib" deviceset="FRAME_A_L" device="" value="3/6">
 <attribute name="PAGE" value="Input ports"/>
 </part>
-<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.3" package3d_urn="urn:adsk.eagle:package:14278/1"/>
-<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.3" package3d_urn="urn:adsk.eagle:package:14278/1"/>
-<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.3" package3d_urn="urn:adsk.eagle:package:14278/1"/>
-<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.3" package3d_urn="urn:adsk.eagle:package:14278/1"/>
+<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="4.1" package3d_urn="urn:adsk.eagle:package:14273/1" value="MOUNT-HOLE4.1"/>
+<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="4.1" package3d_urn="urn:adsk.eagle:package:14273/1" value="MOUNT-HOLE4.1"/>
+<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="4.1" package3d_urn="urn:adsk.eagle:package:14273/1" value="MOUNT-HOLE4.1"/>
+<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="4.1" package3d_urn="urn:adsk.eagle:package:14273/1" value="MOUNT-HOLE4.1"/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC847" device="" package3d_urn="urn:adsk.eagle:package:21940/1"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
@@ -5507,6 +5783,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
+<part name="G1" library="eagleparts" deviceset="NUCLEO_64_GENERIC" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5664,6 +5944,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="54.61" y="89.9414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="54.61" y="94.742" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="G1" gate="G$1" x="213.36" y="127" smashed="yes" rot="R270"/>
+<instance part="GND6" gate="1" x="210.82" y="132.08" smashed="yes">
+<attribute name="VALUE" x="208.28" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="213.36" y="73.66" smashed="yes">
+<attribute name="VALUE" x="212.598" y="72.644" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND12" gate="1" x="198.12" y="73.66" smashed="yes">
+<attribute name="VALUE" x="195.58" y="76.2" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5716,6 +6006,26 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="111.76" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="144.78" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="G1" gate="G$1" pin="GND4"/>
+<wire x1="210.82" y1="134.62" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="GND5"/>
+<wire x1="210.82" y1="137.16" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="137.16" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
+<junction x="210.82" y="137.16"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="G1" gate="G$1" pin="GND8"/>
+<wire x1="213.36" y1="76.2" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="G1" gate="G$1" pin="AGND"/>
+<wire x1="198.12" y1="76.2" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -5904,6 +6214,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="93.98" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
 <label x="96.52" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="236.22" y1="139.7" x2="236.22" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="PC11"/>
+<label x="236.22" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="BLKB-DET" class="0">
 <segment>
@@ -5917,6 +6232,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
 <label x="96.52" y="111.76" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="233.68" y1="137.16" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="PD2"/>
+<label x="233.68" y="137.16" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="BLKC-DET" class="0">
@@ -5932,6 +6252,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="93.98" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 <label x="96.52" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="215.9" y1="78.74" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="NC6-PB11"/>
+<label x="215.9" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="BLKA-TX" class="0">
 <segment>
@@ -5941,6 +6266,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U1" gate="G$1" pin="IN_B"/>
 <wire x1="149.86" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
 <label x="149.86" y="157.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="172.72" x2="236.22" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="PC10"/>
+<label x="236.22" y="175.26" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="BLKB-TX" class="0">
@@ -5952,6 +6282,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="149.86" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
 <label x="149.86" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="233.68" y1="175.26" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="PC12"/>
+<label x="233.68" y="175.26" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="BLKC-TX" class="0">
 <segment>
@@ -5961,6 +6296,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U3" gate="G$1" pin="IN_B"/>
 <wire x1="149.86" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
 <label x="149.86" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="205.74" y1="116.84" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="PB10"/>
+<label x="205.74" y="116.84" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="BLKB-RX+" class="0">
