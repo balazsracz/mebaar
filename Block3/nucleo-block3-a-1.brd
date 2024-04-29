@@ -1641,6 +1641,97 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <wire x1="0.508" y1="0.254" x2="0.508" y2="-0.254" width="0.127" layer="51"/>
 <wire x1="0.508" y1="-0.254" x2="0" y2="-0.254" width="0.127" layer="51"/>
 </package>
+<package name="COM-16347_SPK-M">
+<smd name="1" x="-2.4892" y="1.65" dx="1.5494" dy="0.9398" layer="1"/>
+<smd name="2" x="-2.4892" y="-1.65" dx="1.5494" dy="0.9398" layer="1"/>
+<smd name="3" x="2.4892" y="-1.65" dx="1.5494" dy="0.9398" layer="1"/>
+<smd name="4" x="2.4892" y="1.65" dx="1.5494" dy="0.9398" layer="1"/>
+<wire x1="-2.5019" y1="1.2055" x2="-2.5019" y2="2.0945" width="0.1524" layer="51"/>
+<wire x1="-2.5019" y1="2.0945" x2="-2.7051" y2="2.0945" width="0.1524" layer="51"/>
+<wire x1="-2.7051" y1="2.0945" x2="-2.7051" y2="1.2055" width="0.1524" layer="51"/>
+<wire x1="-2.7051" y1="1.2055" x2="-2.5019" y2="1.2055" width="0.1524" layer="51"/>
+<wire x1="-2.5019" y1="-2.0945" x2="-2.5019" y2="-1.2055" width="0.1524" layer="51"/>
+<wire x1="-2.5019" y1="-1.2055" x2="-2.7051" y2="-1.2055" width="0.1524" layer="51"/>
+<wire x1="-2.7051" y1="-1.2055" x2="-2.7051" y2="-2.0945" width="0.1524" layer="51"/>
+<wire x1="-2.7051" y1="-2.0945" x2="-2.5019" y2="-2.0945" width="0.1524" layer="51"/>
+<wire x1="2.5019" y1="-1.2055" x2="2.5019" y2="-2.0945" width="0.1524" layer="51"/>
+<wire x1="2.5019" y1="-2.0945" x2="2.7051" y2="-2.0945" width="0.1524" layer="51"/>
+<wire x1="2.7051" y1="-2.0945" x2="2.7051" y2="-1.2055" width="0.1524" layer="51"/>
+<wire x1="2.7051" y1="-1.2055" x2="2.5019" y2="-1.2055" width="0.1524" layer="51"/>
+<wire x1="2.5019" y1="2.0945" x2="2.5019" y2="1.2055" width="0.1524" layer="51"/>
+<wire x1="2.5019" y1="1.2055" x2="2.7051" y2="1.2055" width="0.1524" layer="51"/>
+<wire x1="2.7051" y1="1.2055" x2="2.7051" y2="2.0945" width="0.1524" layer="51"/>
+<wire x1="2.7051" y1="2.0945" x2="2.5019" y2="2.0945" width="0.1524" layer="51"/>
+<wire x1="-2.5019" y1="-2.5019" x2="2.5019" y2="-2.5019" width="0.1524" layer="51"/>
+<wire x1="2.5019" y1="-2.5019" x2="2.5019" y2="2.5019" width="0.1524" layer="51"/>
+<wire x1="2.5019" y1="2.5019" x2="-2.5019" y2="2.5019" width="0.1524" layer="51"/>
+<wire x1="-2.5019" y1="2.5019" x2="-2.5019" y2="-2.5019" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="2.5019" x2="-0.3048" y2="2.5019" width="0.1524" layer="51" curve="-180"/>
+<text x="-2.5575" y="1.3198" size="1.27" layer="51" ratio="6">*</text>
+<wire x1="-2.5019" y1="0" x2="-2.5019" y2="4.7879" width="0.1524" layer="47"/>
+<wire x1="2.5019" y1="0" x2="2.5019" y2="4.7879" width="0.1524" layer="47"/>
+<wire x1="-2.5019" y1="4.4069" x2="2.5019" y2="4.4069" width="0.1524" layer="47"/>
+<wire x1="-2.5019" y1="4.4069" x2="-2.2479" y2="4.5339" width="0.1524" layer="47"/>
+<wire x1="-2.5019" y1="4.4069" x2="-2.2479" y2="4.2799" width="0.1524" layer="47"/>
+<wire x1="-2.2479" y1="4.5339" x2="-2.2479" y2="4.2799" width="0.1524" layer="47"/>
+<wire x1="2.5019" y1="4.4069" x2="2.2479" y2="4.5339" width="0.1524" layer="47"/>
+<wire x1="2.5019" y1="4.4069" x2="2.2479" y2="4.2799" width="0.1524" layer="47"/>
+<wire x1="2.2479" y1="4.5339" x2="2.2479" y2="4.2799" width="0.1524" layer="47"/>
+<wire x1="-2.7051" y1="0" x2="-2.7051" y2="6.6929" width="0.1524" layer="47"/>
+<wire x1="2.7051" y1="0" x2="2.7051" y2="6.6929" width="0.1524" layer="47"/>
+<wire x1="-2.7051" y1="6.3119" x2="2.7051" y2="6.3119" width="0.1524" layer="47"/>
+<wire x1="-2.7051" y1="6.3119" x2="-2.4511" y2="6.4389" width="0.1524" layer="47"/>
+<wire x1="-2.7051" y1="6.3119" x2="-2.4511" y2="6.1849" width="0.1524" layer="47"/>
+<wire x1="-2.4511" y1="6.4389" x2="-2.4511" y2="6.1849" width="0.1524" layer="47"/>
+<wire x1="2.7051" y1="6.3119" x2="2.4511" y2="6.4389" width="0.1524" layer="47"/>
+<wire x1="2.7051" y1="6.3119" x2="2.4511" y2="6.1849" width="0.1524" layer="47"/>
+<wire x1="2.4511" y1="6.4389" x2="2.4511" y2="6.1849" width="0.1524" layer="47"/>
+<wire x1="0" y1="2.5019" x2="5.4229" y2="2.5019" width="0.1524" layer="47"/>
+<wire x1="0" y1="-2.5019" x2="5.4229" y2="-2.5019" width="0.1524" layer="47"/>
+<wire x1="5.0419" y1="2.5019" x2="5.0419" y2="-2.5019" width="0.1524" layer="47"/>
+<wire x1="5.0419" y1="2.5019" x2="4.9149" y2="2.2479" width="0.1524" layer="47"/>
+<wire x1="5.0419" y1="2.5019" x2="5.1689" y2="2.2479" width="0.1524" layer="47"/>
+<wire x1="4.9149" y1="2.2479" x2="5.1689" y2="2.2479" width="0.1524" layer="47"/>
+<wire x1="5.0419" y1="-2.5019" x2="4.9149" y2="-2.2479" width="0.1524" layer="47"/>
+<wire x1="5.0419" y1="-2.5019" x2="5.1689" y2="-2.2479" width="0.1524" layer="47"/>
+<wire x1="4.9149" y1="-2.2479" x2="5.1689" y2="-2.2479" width="0.1524" layer="47"/>
+<wire x1="-2.4892" y1="1.65" x2="-5.4102" y2="1.65" width="0.1524" layer="47"/>
+<wire x1="-2.4892" y1="-1.65" x2="-5.4102" y2="-1.65" width="0.1524" layer="47"/>
+<wire x1="-5.0292" y1="1.65" x2="-5.0292" y2="2.92" width="0.1524" layer="47"/>
+<wire x1="-5.0292" y1="-1.65" x2="-5.0292" y2="-2.92" width="0.1524" layer="47"/>
+<wire x1="-5.0292" y1="1.65" x2="-5.1562" y2="1.904" width="0.1524" layer="47"/>
+<wire x1="-5.0292" y1="1.65" x2="-4.9022" y2="1.904" width="0.1524" layer="47"/>
+<wire x1="-5.1562" y1="1.904" x2="-4.9022" y2="1.904" width="0.1524" layer="47"/>
+<wire x1="-5.0292" y1="-1.65" x2="-5.1562" y2="-1.904" width="0.1524" layer="47"/>
+<wire x1="-5.0292" y1="-1.65" x2="-4.9022" y2="-1.904" width="0.1524" layer="47"/>
+<wire x1="-5.1562" y1="-1.904" x2="-4.9022" y2="-1.904" width="0.1524" layer="47"/>
+<wire x1="-2.7051" y1="0" x2="-2.7051" y2="-4.7879" width="0.1524" layer="47"/>
+<wire x1="-1.8161" y1="0" x2="-1.8161" y2="-4.7879" width="0.1524" layer="47"/>
+<wire x1="-2.7051" y1="-4.4069" x2="-3.9751" y2="-4.4069" width="0.1524" layer="47"/>
+<wire x1="-1.8161" y1="-4.4069" x2="-0.5461" y2="-4.4069" width="0.1524" layer="47"/>
+<wire x1="-2.7051" y1="-4.4069" x2="-2.9591" y2="-4.2799" width="0.1524" layer="47"/>
+<wire x1="-2.7051" y1="-4.4069" x2="-2.9591" y2="-4.5339" width="0.1524" layer="47"/>
+<wire x1="-2.9591" y1="-4.2799" x2="-2.9591" y2="-4.5339" width="0.1524" layer="47"/>
+<wire x1="-1.8161" y1="-4.4069" x2="-1.5621" y2="-4.2799" width="0.1524" layer="47"/>
+<wire x1="-1.8161" y1="-4.4069" x2="-1.5621" y2="-4.5339" width="0.1524" layer="47"/>
+<wire x1="-1.5621" y1="-4.2799" x2="-1.5621" y2="-4.5339" width="0.1524" layer="47"/>
+<text x="-15.2035" y="-7.5819" size="1.27" layer="47" ratio="6">Default Padstyle: RX61Y37D0T</text>
+<text x="-14.4237" y="-9.1059" size="1.27" layer="47" ratio="6">Pin 1 Padstyle: RX61Y37D0T</text>
+<text x="-14.8136" y="-13.6779" size="1.27" layer="47" ratio="6">Alt 1 Padstyle: OX60Y90D30P</text>
+<text x="-14.8136" y="-15.2019" size="1.27" layer="47" ratio="6">Alt 2 Padstyle: OX90Y60D30P</text>
+<text x="-4.0424" y="4.9149" size="0.635" layer="47" ratio="4">0.197in/5.004mm</text>
+<text x="-3.7543" y="6.8199" size="0.635" layer="47" ratio="4">0.213in/5.41mm</text>
+<text x="5.5499" y="-0.3175" size="0.635" layer="47" ratio="4">0.197in/5.004mm</text>
+<text x="-11.8932" y="-0.3175" size="0.635" layer="47" ratio="4">0.13in/3.3mm</text>
+<text x="-6.303" y="-5.5499" size="0.635" layer="47" ratio="4">0.035in/0.889mm</text>
+<wire x1="-2.6289" y1="-2.6289" x2="2.6289" y2="-2.6289" width="0.1524" layer="21"/>
+<wire x1="2.6289" y1="-0.8474" x2="2.6289" y2="0.8474" width="0.1524" layer="21"/>
+<wire x1="2.6289" y1="2.6289" x2="-2.6289" y2="2.6289" width="0.1524" layer="21"/>
+<wire x1="-2.6289" y1="0.8474" x2="-2.6289" y2="-0.8474" width="0.1524" layer="21"/>
+<text x="-3.3195" y="2.1199" size="1.27" layer="21" ratio="6">*</text>
+<text x="-3.2712" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Name</text>
+<text x="-1.7288" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Value</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT23" urn="urn:adsk.eagle:package:28738/2" type="model" library_version="5">
@@ -2135,6 +2226,78 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-111.86" y="-205.574" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-111.86" y="-209.716" size="1.27" layer="27" ratio="10"/>
 </element>
+<element name="LED1" library="eagleparts" package="COM-16347_SPK-M" value="" x="-97.79" y="-218.44" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-97.79" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" x="-97.79" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Sparkfun" x="-97.79" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.0612" y="-219.075" size="1.27" layer="27" ratio="6"/>
+<attribute name="TYPE" value="LED Addressable" x="-97.79" y="-218.44" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.5188" y="-219.075" size="1.27" layer="27" ratio="6"/>
+</element>
+<element name="LED2" library="eagleparts" package="COM-16347_SPK-M" value="" x="-97.79" y="-242.57" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-97.79" y="-242.57" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" x="-97.79" y="-242.57" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Sparkfun" x="-97.79" y="-242.57" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.0612" y="-243.205" size="1.27" layer="27" ratio="6"/>
+<attribute name="TYPE" value="LED Addressable" x="-97.79" y="-242.57" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.5188" y="-243.205" size="1.27" layer="27" ratio="6"/>
+</element>
+<element name="LED3" library="eagleparts" package="COM-16347_SPK-M" value="" x="-97.79" y="-266.7" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-97.79" y="-266.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" x="-97.79" y="-266.7" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Sparkfun" x="-97.79" y="-266.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.0612" y="-267.335" size="1.27" layer="27" ratio="6"/>
+<attribute name="TYPE" value="LED Addressable" x="-97.79" y="-266.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.5188" y="-267.335" size="1.27" layer="27" ratio="6"/>
+</element>
+<element name="LED4" library="eagleparts" package="COM-16347_SPK-M" value="" x="-97.79" y="-290.83" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-97.79" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" x="-97.79" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Sparkfun" x="-97.79" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.0612" y="-291.465" size="1.27" layer="27" ratio="6"/>
+<attribute name="TYPE" value="LED Addressable" x="-97.79" y="-290.83" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.5188" y="-291.465" size="1.27" layer="27" ratio="6"/>
+</element>
+<element name="LED5" library="eagleparts" package="COM-16347_SPK-M" value="" x="-97.79" y="-314.96" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-97.79" y="-314.96" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" x="-97.79" y="-314.96" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Sparkfun" x="-97.79" y="-314.96" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.0612" y="-315.595" size="1.27" layer="27" ratio="6"/>
+<attribute name="TYPE" value="LED Addressable" x="-97.79" y="-314.96" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.5188" y="-315.595" size="1.27" layer="27" ratio="6"/>
+</element>
+<element name="LED6" library="eagleparts" package="COM-16347_SPK-M" value="" x="-97.79" y="-339.09" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-97.79" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" x="-97.79" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Sparkfun" x="-97.79" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.0612" y="-339.725" size="1.27" layer="27" ratio="6"/>
+<attribute name="TYPE" value="LED Addressable" x="-97.79" y="-339.09" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.5188" y="-339.725" size="1.27" layer="27" ratio="6"/>
+</element>
+<element name="LED7" library="eagleparts" package="COM-16347_SPK-M" value="" x="-97.79" y="-363.22" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-97.79" y="-363.22" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" x="-97.79" y="-363.22" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Sparkfun" x="-97.79" y="-363.22" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.0612" y="-363.855" size="1.27" layer="27" ratio="6"/>
+<attribute name="TYPE" value="LED Addressable" x="-97.79" y="-363.22" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.5188" y="-363.855" size="1.27" layer="27" ratio="6"/>
+</element>
+<element name="LED8" library="eagleparts" package="COM-16347_SPK-M" value="" x="-97.79" y="-387.35" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-97.79" y="-387.35" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" x="-97.79" y="-387.35" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Sparkfun" x="-97.79" y="-387.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.0612" y="-387.985" size="1.27" layer="27" ratio="6"/>
+<attribute name="TYPE" value="LED Addressable" x="-97.79" y="-387.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.5188" y="-387.985" size="1.27" layer="27" ratio="6"/>
+</element>
+<element name="LED9" library="eagleparts" package="COM-16347_SPK-M" value="" x="-97.79" y="-411.48" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="-97.79" y="-411.48" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" x="-97.79" y="-411.48" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Sparkfun" x="-97.79" y="-411.48" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-101.0612" y="-412.115" size="1.27" layer="27" ratio="6"/>
+<attribute name="TYPE" value="LED Addressable" x="-97.79" y="-411.48" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.5188" y="-412.115" size="1.27" layer="27" ratio="6"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2182,6 +2345,24 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="R8" pad="2"/>
+<contactref element="LED1" pad="3"/>
+<contactref element="LED2" pad="3"/>
+<contactref element="LED3" pad="3"/>
+<contactref element="LED4" pad="3"/>
+<contactref element="LED5" pad="3"/>
+<contactref element="LED6" pad="3"/>
+<contactref element="LED7" pad="3"/>
+<contactref element="LED8" pad="3"/>
+<contactref element="LED9" pad="3"/>
+<wire x1="-95.3008" y1="-389" x2="-95.3008" y2="-413.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.3008" y1="-364.87" x2="-95.3008" y2="-389" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.3008" y1="-340.74" x2="-95.3008" y2="-364.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.3008" y1="-316.61" x2="-95.3008" y2="-340.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.3008" y1="-292.48" x2="-95.3008" y2="-316.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.3008" y1="-268.35" x2="-95.3008" y2="-292.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.3008" y1="-244.22" x2="-95.3008" y2="-268.35" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.3008" y1="-220.09" x2="-95.3008" y2="-244.22" width="0" layer="19" extent="1-1"/>
+<wire x1="-103.19" y1="-148.59" x2="-95.3008" y2="-220.09" width="0" layer="19" extent="1-1"/>
 <wire x1="-103.19" y1="-120.48" x2="-103.19" y2="-148.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-103.19" y1="-114.3" x2="-103.19" y2="-120.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-82.55" y1="-64.77" x2="-103.19" y2="-114.3" width="0" layer="19" extent="1-1"/>
@@ -2281,6 +2462,24 @@ design rules under a new name.</description>
 <contactref element="U2" pad="6"/>
 <contactref element="U3" pad="6"/>
 <contactref element="G1" pad="5V2"/>
+<contactref element="LED1" pad="1"/>
+<contactref element="LED2" pad="1"/>
+<contactref element="LED3" pad="1"/>
+<contactref element="LED4" pad="1"/>
+<contactref element="LED5" pad="1"/>
+<contactref element="LED6" pad="1"/>
+<contactref element="LED7" pad="1"/>
+<contactref element="LED8" pad="1"/>
+<contactref element="LED9" pad="1"/>
+<wire x1="-100.2792" y1="-361.57" x2="-100.2792" y2="-385.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.2792" y1="-337.44" x2="-100.2792" y2="-361.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.2792" y1="-313.31" x2="-100.2792" y2="-337.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.2792" y1="-289.18" x2="-100.2792" y2="-313.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.2792" y1="-265.05" x2="-100.2792" y2="-289.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.2792" y1="-240.92" x2="-100.2792" y2="-265.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.2792" y1="-216.79" x2="-100.2792" y2="-240.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.2792" y1="-409.83" x2="-100.2792" y2="-385.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.545" y1="-67.635" x2="-100.2792" y2="-216.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-10.545" y1="-67.635" x2="-19.545" y2="-67.635" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.545" y1="-67.635" x2="-10.545" y2="-67.635" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="52.07" x2="-1.545" y2="-67.635" width="0" layer="19" extent="1-1"/>
@@ -2509,6 +2708,51 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="2"/>
 <contactref element="G1" pad="VIN2"/>
 <wire x1="-110.49" y1="-191.77" x2="20.32" y2="44.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED_DAT">
+<contactref element="G1" pad="PA7"/>
+<contactref element="LED1" pad="4"/>
+<wire x1="-95.3008" y1="-216.79" x2="78.74" y2="54.61" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="LED1" pad="2"/>
+<contactref element="LED2" pad="4"/>
+<wire x1="-100.2792" y1="-220.09" x2="-95.3008" y2="-240.92" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="LED2" pad="2"/>
+<contactref element="LED3" pad="4"/>
+<wire x1="-100.2792" y1="-244.22" x2="-95.3008" y2="-265.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="LED3" pad="2"/>
+<contactref element="LED4" pad="4"/>
+<wire x1="-100.2792" y1="-268.35" x2="-95.3008" y2="-289.18" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="LED4" pad="2"/>
+<contactref element="LED5" pad="4"/>
+<wire x1="-100.2792" y1="-292.48" x2="-95.3008" y2="-313.31" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="LED5" pad="2"/>
+<contactref element="LED6" pad="4"/>
+<wire x1="-100.2792" y1="-316.61" x2="-95.3008" y2="-337.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="LED6" pad="2"/>
+<contactref element="LED7" pad="4"/>
+<wire x1="-100.2792" y1="-340.74" x2="-95.3008" y2="-361.57" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="LED7" pad="2"/>
+<contactref element="LED8" pad="4"/>
+<wire x1="-100.2792" y1="-364.87" x2="-95.3008" y2="-385.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="LED8" pad="2"/>
+<contactref element="LED9" pad="4"/>
+<wire x1="-100.2792" y1="-389" x2="-95.3008" y2="-409.83" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
