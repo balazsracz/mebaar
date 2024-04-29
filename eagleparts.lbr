@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -40,11 +40,11 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -2700,6 +2700,115 @@ Source: GLX-S-88M.pdf</description>
 <text x="-3.2712" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Name</text>
 <text x="-1.7288" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Value</text>
 </package>
+<package name="CONN_MJ3245-66-0_GCT">
+<pad name="1" x="0" y="0" drill="0.889" diameter="1.397"/>
+<pad name="2" x="-1.02" y="-2.54" drill="0.889" diameter="1.397"/>
+<pad name="3" x="-2.04" y="0" drill="0.889" diameter="1.397"/>
+<pad name="4" x="-3.06" y="-2.54" drill="0.889" diameter="1.397"/>
+<pad name="5" x="-4.08" y="0" drill="0.889" diameter="1.397"/>
+<pad name="6" x="-5.1" y="-2.54" drill="0.889" diameter="1.397"/>
+<pad name="7" x="-8.55" y="-4.84" drill="2.3622" diameter="2.3622"/>
+<pad name="8" x="3.45" y="-4.84" drill="2.3622" diameter="2.3622"/>
+<wire x1="-1.02" y1="0" x2="-1.02" y2="9.24" width="0.1524" layer="47"/>
+<wire x1="0" y1="0" x2="0" y2="9.24" width="0.1524" layer="47"/>
+<wire x1="-1.02" y1="8.859" x2="-2.29" y2="8.859" width="0.1524" layer="47"/>
+<wire x1="0" y1="8.859" x2="1.27" y2="8.859" width="0.1524" layer="47"/>
+<wire x1="-1.02" y1="8.859" x2="-1.274" y2="8.986" width="0.1524" layer="47"/>
+<wire x1="-1.02" y1="8.859" x2="-1.274" y2="8.732" width="0.1524" layer="47"/>
+<wire x1="-1.274" y1="8.986" x2="-1.274" y2="8.732" width="0.1524" layer="47"/>
+<wire x1="0" y1="8.859" x2="0.254" y2="8.986" width="0.1524" layer="47"/>
+<wire x1="0" y1="8.859" x2="0.254" y2="8.732" width="0.1524" layer="47"/>
+<wire x1="0.254" y1="8.986" x2="0.254" y2="8.732" width="0.1524" layer="47"/>
+<wire x1="-8.55" y1="-4.84" x2="-8.55" y2="12.415" width="0.1524" layer="47"/>
+<wire x1="3.45" y1="-4.84" x2="3.45" y2="12.415" width="0.1524" layer="47"/>
+<wire x1="-8.55" y1="12.034" x2="3.45" y2="12.034" width="0.1524" layer="47"/>
+<wire x1="-8.55" y1="12.034" x2="-8.296" y2="12.161" width="0.1524" layer="47"/>
+<wire x1="-8.55" y1="12.034" x2="-8.296" y2="11.907" width="0.1524" layer="47"/>
+<wire x1="-8.296" y1="12.161" x2="-8.296" y2="11.907" width="0.1524" layer="47"/>
+<wire x1="3.45" y1="12.034" x2="3.196" y2="12.161" width="0.1524" layer="47"/>
+<wire x1="3.45" y1="12.034" x2="3.196" y2="11.907" width="0.1524" layer="47"/>
+<wire x1="3.196" y1="12.161" x2="3.196" y2="11.907" width="0.1524" layer="47"/>
+<wire x1="-9.6493" y1="4.16" x2="-9.6493" y2="14.955" width="0.1524" layer="47"/>
+<wire x1="4.5493" y1="4.16" x2="4.5493" y2="14.955" width="0.1524" layer="47"/>
+<wire x1="-9.6493" y1="14.574" x2="4.5493" y2="14.574" width="0.1524" layer="47"/>
+<wire x1="-9.6493" y1="14.574" x2="-9.3953" y2="14.701" width="0.1524" layer="47"/>
+<wire x1="-9.6493" y1="14.574" x2="-9.3953" y2="14.447" width="0.1524" layer="47"/>
+<wire x1="-9.3953" y1="14.701" x2="-9.3953" y2="14.447" width="0.1524" layer="47"/>
+<wire x1="4.5493" y1="14.574" x2="4.2953" y2="14.701" width="0.1524" layer="47"/>
+<wire x1="4.5493" y1="14.574" x2="4.2953" y2="14.447" width="0.1524" layer="47"/>
+<wire x1="4.2953" y1="14.701" x2="4.2953" y2="14.447" width="0.1524" layer="47"/>
+<wire x1="0" y1="0" x2="7.4703" y2="0" width="0.1524" layer="47"/>
+<wire x1="0" y1="0" x2="7.4703" y2="0" width="0.1524" layer="47"/>
+<wire x1="7.0893" y1="0" x2="7.0893" y2="1.27" width="0.1524" layer="47"/>
+<wire x1="7.0893" y1="0" x2="7.0893" y2="-1.27" width="0.1524" layer="47"/>
+<wire x1="7.0893" y1="0" x2="6.9623" y2="0.254" width="0.1524" layer="47"/>
+<wire x1="7.0893" y1="0" x2="7.2163" y2="0.254" width="0.1524" layer="47"/>
+<wire x1="6.9623" y1="0.254" x2="7.2163" y2="0.254" width="0.1524" layer="47"/>
+<wire x1="7.0893" y1="0" x2="6.9623" y2="-0.254" width="0.1524" layer="47"/>
+<wire x1="7.0893" y1="0" x2="7.2163" y2="-0.254" width="0.1524" layer="47"/>
+<wire x1="6.9623" y1="-0.254" x2="7.2163" y2="-0.254" width="0.1524" layer="47"/>
+<wire x1="-2.55" y1="-2.54" x2="-12.2711" y2="-2.54" width="0.1524" layer="47"/>
+<wire x1="3.45" y1="-4.84" x2="-12.2711" y2="-4.84" width="0.1524" layer="47"/>
+<wire x1="-11.8901" y1="-2.54" x2="-11.8901" y2="-1.27" width="0.1524" layer="47"/>
+<wire x1="-11.8901" y1="-4.84" x2="-11.8901" y2="-6.11" width="0.1524" layer="47"/>
+<wire x1="-11.8901" y1="-2.54" x2="-12.0171" y2="-2.286" width="0.1524" layer="47"/>
+<wire x1="-11.8901" y1="-2.54" x2="-11.7631" y2="-2.286" width="0.1524" layer="47"/>
+<wire x1="-12.0171" y1="-2.286" x2="-11.7631" y2="-2.286" width="0.1524" layer="47"/>
+<wire x1="-11.8901" y1="-4.84" x2="-12.0171" y2="-5.094" width="0.1524" layer="47"/>
+<wire x1="-11.8901" y1="-4.84" x2="-11.7631" y2="-5.094" width="0.1524" layer="47"/>
+<wire x1="-12.0171" y1="-5.094" x2="-11.7631" y2="-5.094" width="0.1524" layer="47"/>
+<wire x1="-9.6493" y1="4.16" x2="-20.5261" y2="4.16" width="0.1524" layer="47"/>
+<wire x1="-2.55" y1="-2.54" x2="-20.5261" y2="-2.54" width="0.1524" layer="47"/>
+<wire x1="-20.1451" y1="4.16" x2="-20.1451" y2="-2.54" width="0.1524" layer="47"/>
+<wire x1="-20.1451" y1="4.16" x2="-20.2721" y2="3.906" width="0.1524" layer="47"/>
+<wire x1="-20.1451" y1="4.16" x2="-20.0181" y2="3.906" width="0.1524" layer="47"/>
+<wire x1="-20.2721" y1="3.906" x2="-20.0181" y2="3.906" width="0.1524" layer="47"/>
+<wire x1="-20.1451" y1="-2.54" x2="-20.2721" y2="-2.286" width="0.1524" layer="47"/>
+<wire x1="-20.1451" y1="-2.54" x2="-20.0181" y2="-2.286" width="0.1524" layer="47"/>
+<wire x1="-20.2721" y1="-2.286" x2="-20.0181" y2="-2.286" width="0.1524" layer="47"/>
+<wire x1="-9.6493" y1="4.16" x2="-19.2561" y2="4.16" width="0.1524" layer="47"/>
+<wire x1="-9.6493" y1="-10.8514" x2="-19.2561" y2="-10.8514" width="0.1524" layer="47"/>
+<wire x1="-18.8751" y1="4.16" x2="-18.8751" y2="-10.8514" width="0.1524" layer="47"/>
+<wire x1="-18.8751" y1="4.16" x2="-19.0021" y2="3.906" width="0.1524" layer="47"/>
+<wire x1="-18.8751" y1="4.16" x2="-18.7481" y2="3.906" width="0.1524" layer="47"/>
+<wire x1="-19.0021" y1="3.906" x2="-18.7481" y2="3.906" width="0.1524" layer="47"/>
+<wire x1="-18.8751" y1="-10.8514" x2="-19.0021" y2="-10.5974" width="0.1524" layer="47"/>
+<wire x1="-18.8751" y1="-10.8514" x2="-18.7481" y2="-10.5974" width="0.1524" layer="47"/>
+<wire x1="-19.0021" y1="-10.5974" x2="-18.7481" y2="-10.5974" width="0.1524" layer="47"/>
+<text x="-18.3297" y="-14.9154" size="1.27" layer="47" ratio="6">Default Padstyle: EX55Y55D35P</text>
+<text x="-18.5161" y="-16.8204" size="1.27" layer="47" ratio="6">1st Mtg Padstyle: EX93Y93D93P</text>
+<text x="-19.2788" y="-18.7254" size="1.27" layer="47" ratio="6">2nd Mtg Padstyle: RX50Y100D40P</text>
+<text x="-19.2788" y="-20.6304" size="1.27" layer="47" ratio="6">3rd Mtg Padstyle: RX100Y50D40P</text>
+<text x="-19.4823" y="-22.5354" size="1.27" layer="47" ratio="6">Left Mtg Padstyle: RX50Y100D30P</text>
+<text x="-20.0585" y="-24.4404" size="1.27" layer="47" ratio="6">Right Mtg Padstyle: RX50Y100D30P</text>
+<text x="-17.3636" y="-26.3454" size="1.27" layer="47" ratio="6">Alt Padstyle 1: OX60Y90D30P</text>
+<text x="-17.3636" y="-28.2504" size="1.27" layer="47" ratio="6">Alt Padstyle 2: OX90Y60D30P</text>
+<text x="-3.9761" y="9.367" size="0.635" layer="47" ratio="4">0.04in/1.02mm</text>
+<text x="-5.8212" y="12.542" size="0.635" layer="47" ratio="4">0.472in/12mm</text>
+<text x="-6.8805" y="15.082" size="0.635" layer="47" ratio="4">0.559in/14.199mm</text>
+<text x="7.5973" y="-2.8575" size="0.635" layer="47" ratio="4">0in/0mm</text>
+<text x="-20.4829" y="-4.0075" size="0.635" layer="47" ratio="4">-0.091in/-2.3mm</text>
+<text x="-27.5854" y="0.4925" size="0.635" layer="47" ratio="4">0.264in/6.7mm</text>
+<text x="-28.0442" y="-3.6632" size="0.635" layer="47" ratio="4">0.591in/15.011mm</text>
+<wire x1="-9.7763" y1="-10.9784" x2="4.6763" y2="-10.9784" width="0.1524" layer="21"/>
+<wire x1="4.6763" y1="-10.9784" x2="4.6763" y2="-5.7276" width="0.1524" layer="21"/>
+<wire x1="4.6763" y1="4.287" x2="-9.7763" y2="4.287" width="0.1524" layer="21"/>
+<wire x1="-9.7763" y1="4.287" x2="-9.7763" y2="-3.9524" width="0.1524" layer="21"/>
+<wire x1="-9.7763" y1="-5.7276" x2="-9.7763" y2="-10.9784" width="0.1524" layer="21"/>
+<wire x1="4.6763" y1="-3.9524" x2="4.6763" y2="4.287" width="0.1524" layer="21"/>
+<wire x1="5.6923" y1="0" x2="4.9303" y2="0" width="0.508" layer="21" curve="-180"/>
+<wire x1="4.9303" y1="0" x2="5.6923" y2="0" width="0.508" layer="21" curve="-180"/>
+<wire x1="-9.6493" y1="-10.8514" x2="4.5493" y2="-10.8514" width="0.1524" layer="51"/>
+<wire x1="4.5493" y1="-10.8514" x2="4.5493" y2="4.16" width="0.1524" layer="51"/>
+<wire x1="4.5493" y1="4.16" x2="-9.6493" y2="4.16" width="0.1524" layer="51"/>
+<wire x1="-9.6493" y1="4.16" x2="-9.6493" y2="-10.8514" width="0.1524" layer="51"/>
+<wire x1="0.381" y1="4.445" x2="-0.381" y2="4.445" width="0.508" layer="51" curve="-180"/>
+<wire x1="-0.381" y1="4.445" x2="0.381" y2="4.445" width="0.508" layer="51" curve="-180"/>
+<wire x1="5.6923" y1="0" x2="4.9303" y2="0" width="0.508" layer="22" curve="-180"/>
+<wire x1="4.9303" y1="0" x2="5.6923" y2="0" width="0.508" layer="22" curve="-180"/>
+<text x="-5.8212" y="-3.175" size="1.27" layer="27" ratio="6">&gt;Name</text>
+<text x="-4.2788" y="-3.175" size="1.27" layer="27" ratio="6">&gt;Value</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="D-PAK_TO252AA" urn="urn:adsk.eagle:package:29503/2" type="model">
@@ -4816,6 +4925,33 @@ Male: digikey AE10968-ND</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="COM-16347" constant="no"/>
 <attribute name="MFR_NAME" value="Sparkfun" constant="no"/>
 <attribute name="TYPE" value="LED Addressable" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MODJACK6P6C-MJ3245-66-0" prefix="J">
+<description>6p6c modular jack &lt;br&gt;
+digikey: 2073-MJ3245-66-0-ND &lt;br&gt;</description>
+<gates>
+<gate name="A" symbol="CONN_006P_000C_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CONN_MJ3245-66-0_GCT" package="CONN_MJ3245-66-0_GCT">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MJ3245-66-0" constant="no"/>
+<attribute name="MFR_NAME" value="Global Connector Technology" constant="no"/>
+<attribute name="TYPE" value="Modular Connector Jacks" constant="no"/>
 </technology>
 </technologies>
 </device>
