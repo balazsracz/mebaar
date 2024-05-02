@@ -203,6 +203,10 @@
 <wire x1="85.09" y1="27.94" x2="81.28" y2="27.94" width="0.254" layer="27"/>
 <wire x1="81.28" y1="27.94" x2="82.55" y2="29.21" width="0.254" layer="27"/>
 <wire x1="81.28" y1="27.94" x2="82.55" y2="26.67" width="0.254" layer="27"/>
+<wire x1="75.692" y1="60.96" x2="75.692" y2="51.308" width="0.1524" layer="117"/>
+<wire x1="75.692" y1="51.308" x2="99.06" y2="51.308" width="0.1524" layer="117"/>
+<wire x1="75.692" y1="0" x2="75.692" y2="9.652" width="0.1524" layer="117"/>
+<wire x1="75.692" y1="9.652" x2="99.06" y2="9.652" width="0.1524" layer="117"/>
 </plain>
 <libraries>
 <library name="led" urn="urn:adsk.eagle:library:259">
@@ -210,38 +214,6 @@
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
 Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
 <packages>
-<package name="CHIP-LED0805" urn="urn:adsk.eagle:footprint:15672/1" library_version="5">
-<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-LB R99A&lt;br&gt;
-Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
-<wire x1="-0.625" y1="0.45" x2="-0.625" y2="-0.45" width="0.1016" layer="51"/>
-<wire x1="0.625" y1="0.45" x2="0.625" y2="-0.475" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.675" y1="0" x2="-0.525" y2="0.3" layer="21"/>
-<rectangle x1="0.525" y1="0" x2="0.675" y2="0.3" layer="21"/>
-<rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
-<rectangle x1="-0.675" y1="0.45" x2="0.675" y2="1.05" layer="51"/>
-<rectangle x1="-0.675" y1="-1.05" x2="0.675" y2="-0.45" layer="51"/>
-</package>
-<package name="CHIP-LED0603" urn="urn:adsk.eagle:footprint:15671/1" library_version="5">
-<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-LB Q993&lt;br&gt;
-Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
-<wire x1="-0.4" y1="0.45" x2="-0.4" y2="-0.45" width="0.1016" layer="51"/>
-<wire x1="0.4" y1="0.45" x2="0.4" y2="-0.45" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
-<text x="-0.635" y="-0.635" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-0.635" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.45" y1="0.45" x2="0.45" y2="0.85" layer="51"/>
-<rectangle x1="-0.45" y1="-0.85" x2="0.45" y2="-0.45" layer="51"/>
-<rectangle x1="-0.45" y1="0" x2="-0.3" y2="0.3" layer="21"/>
-<rectangle x1="0.3" y1="0" x2="0.45" y2="0.3" layer="21"/>
-<rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
-</package>
 <package name="CHIPLED_0603" urn="urn:adsk.eagle:footprint:15676/1" library_version="5">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
@@ -268,22 +240,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="CHIP-LED0805" urn="urn:adsk.eagle:package:15818/2" type="model" library_version="5">
-<description>Hyper CHIPLED Hyper-Bright LED
-LB R99A
-Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
-<packageinstances>
-<packageinstance name="CHIP-LED0805"/>
-</packageinstances>
-</package3d>
-<package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:15819/3" type="model" library_version="5">
-<description>Hyper CHIPLED Hyper-Bright LED
-LB Q993
-Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
-<packageinstances>
-<packageinstance name="CHIP-LED0603"/>
-</packageinstances>
-</package3d>
 <package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:15822/2" type="model" library_version="5">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
@@ -361,7 +317,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
 <circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
 <hole x="0" y="0" drill="3.2"/>
-<circle x="0" y="0" radius="4.01" width="0.127" layer="117"/>
+<circle x="0" y="0" radius="2" width="0.127" layer="117"/>
+<circle x="0" y="0" radius="1.6" width="0.127" layer="117"/>
 </package>
 <package name="TACTSW-6X6-LASER">
 <description>&lt;b&gt;6.2 X 6.5mm TACT Switch (SMD)&lt;/b&gt;&lt;p&gt;
@@ -408,7 +365,74 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <rectangle x1="2.7755" y1="-2.4192" x2="3.3246" y2="-1.6623" layer="21"/>
 <circle x="0" y="0" radius="1.9" width="0.127" layer="117"/>
 </package>
+<package name="CHIPLED_0805" urn="urn:adsk.eagle:footprint:15674/1" locally_modified="yes" library_version="5">
+<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
+Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
+<wire x1="-0.35" y1="0.925" x2="0.35" y2="0.925" width="0.1016" layer="51" curve="162.394521"/>
+<wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
+<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
+<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
+<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
+<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
+<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
+<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
+<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
+<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
+<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
+<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
+<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
+<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
+<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
+<rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
+<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
+<rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
+<circle x="0" y="0" radius="0.505" width="0.127" layer="117"/>
+</package>
+<package name="CHIPLED_0603" urn="urn:adsk.eagle:footprint:15676/1" locally_modified="yes" library_version="5">
+<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
+Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
+<wire x1="-0.3" y1="0.8" x2="0.3" y2="0.8" width="0.1016" layer="51" curve="170.055574"/>
+<wire x1="-0.275" y1="-0.825" x2="0.275" y2="-0.825" width="0.0508" layer="51" curve="-180"/>
+<wire x1="-0.4" y1="0.375" x2="-0.4" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="0.4" y1="0.35" x2="0.4" y2="-0.35" width="0.1016" layer="51"/>
+<circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="51"/>
+<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.905" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
+<rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
+<rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
+<rectangle x1="0.25" y1="0.55" x2="0.45" y2="0.85" layer="51"/>
+<rectangle x1="-0.45" y1="0.35" x2="0.45" y2="0.575" layer="51"/>
+<rectangle x1="-0.45" y1="-0.85" x2="-0.25" y2="-0.35" layer="51"/>
+<rectangle x1="0.25" y1="-0.85" x2="0.45" y2="-0.35" layer="51"/>
+<rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="51"/>
+<rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="51"/>
+<rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
+<rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
+<circle x="0" y="0" radius="0.505" width="0.127" layer="117"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:15821/2" type="model" library_version="5">
+<description>CHIPLED
+Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
+<packageinstances>
+<packageinstance name="CHIPLED_0805"/>
+</packageinstances>
+</package3d>
+<package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:15822/2" type="model" library_version="5">
+<description>CHIPLED
+Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
+<packageinstances>
+<packageinstance name="CHIPLED_0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="transistor-small-signal" urn="urn:adsk.eagle:library:401">
 <description>&lt;b&gt;Small Signal Transistors&lt;/b&gt;&lt;p&gt;
@@ -1713,113 +1737,113 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="DLOCK" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="88.9" y="30.48" smashed="yes" rot="R90">
-<attribute name="POPULARITY" value="68" x="161.29" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="DLOCK" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="88.9" y="30.48" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="52" x="161.29" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="90.17" y="33.02" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DTRK1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="39.37" y="5.08" smashed="yes" rot="R90">
+<element name="DTRK1" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="39.37" y="5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="3.81" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="111.76" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="111.76" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.64" y="7.62" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DTRK2" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="39.37" y="15.24" smashed="yes" rot="R90">
+<element name="DTRK2" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="39.37" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="13.97" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="111.76" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="111.76" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.64" y="17.78" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DTRK3" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="39.37" y="25.4" smashed="yes" rot="R90">
+<element name="DTRK3" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="39.37" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="24.13" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="111.76" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="111.76" y="54.61" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.64" y="27.94" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DTRK4" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="39.37" y="35.56" smashed="yes" rot="R90">
+<element name="DTRK4" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="39.37" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="34.29" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="111.76" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="111.76" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.64" y="38.1" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DTRK5" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="39.37" y="45.72" smashed="yes" rot="R90">
+<element name="DTRK5" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="39.37" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="44.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="111.76" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="111.76" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.64" y="48.26" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DTRK6" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="39.37" y="55.88" smashed="yes" rot="R90">
+<element name="DTRK6" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="39.37" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="54.61" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="111.76" y="100.33" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="111.76" y="100.33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.64" y="58.42" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW1011N" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="12.7" y="45.72" smashed="yes" rot="R90">
+<element name="DW1011N" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="12.7" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.97" y="44.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="50.8" y="83.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="50.8" y="83.82" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="13.97" y="48.26" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW1011N1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="17.78" y="55.88" smashed="yes" rot="R90">
+<element name="DW1011N1" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="17.78" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.05" y="54.61" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="20.32" y="113.03" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="20.32" y="113.03" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="19.05" y="58.42" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW1011R" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="15.24" y="50.8" smashed="yes" rot="R90">
+<element name="DW1011R" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="15.24" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.51" y="49.53" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="53.34" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="53.34" y="93.98" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="16.51" y="53.34" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW1N" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="80.01" y="29.21" smashed="yes" rot="R90">
+<element name="DW1N" library="eagleparts" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="80.01" y="29.21" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.28" y="29.21" size="1.27" layer="25" rot="R270"/>
-<attribute name="POPULARITY" value="26" x="152.4" y="78.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="28" x="152.4" y="78.74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="81.28" y="31.75" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW1R" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="80.01" y="31.75" smashed="yes" rot="R90">
+<element name="DW1R" library="eagleparts" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="80.01" y="31.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.28" y="30.48" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="26" x="152.4" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="28" x="152.4" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="81.28" y="34.29" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW2AN" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="81.28" y="25.4" smashed="yes" rot="R90">
+<element name="DW2AN" library="eagleparts" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="81.28" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.55" y="24.13" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="26" x="119.38" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="28" x="119.38" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="82.55" y="27.94" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW2AR" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="78.74" y="27.94" smashed="yes" rot="R90">
+<element name="DW2AR" library="eagleparts" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="78.74" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="80.01" y="26.67" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="26" x="116.84" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="28" x="116.84" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="80.01" y="30.48" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW2BN" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="71.12" y="25.4" smashed="yes" rot="R90">
+<element name="DW2BN" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="71.12" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.39" y="24.13" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="109.22" y="99.06" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="109.22" y="99.06" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="72.39" y="27.94" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW2BR" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="72.39" y="21.59" smashed="yes" rot="R90">
+<element name="DW2BR" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="72.39" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="20.32" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="110.49" y="100.33" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="110.49" y="100.33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="73.66" y="24.13" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW34N" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="58.42" y="15.24" smashed="yes" rot="R90">
+<element name="DW34N" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="58.42" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.69" y="13.97" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="123.19" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="123.19" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="59.69" y="17.78" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW34N1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="63.5" y="5.08" smashed="yes" rot="R90">
+<element name="DW34N1" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="63.5" y="5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.77" y="3.81" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="101.6" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="101.6" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="64.77" y="7.62" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW34R" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="60.96" y="10.16" smashed="yes" rot="R90">
+<element name="DW34R" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="60.96" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.23" y="8.89" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="125.73" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="125.73" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="62.23" y="12.7" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW56N" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="12.7" y="15.24" smashed="yes" rot="R90">
+<element name="DW56N" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="12.7" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.97" y="13.97" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="77.47" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="77.47" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="13.97" y="17.78" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW56N1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="17.78" y="5.08" smashed="yes" rot="R90">
+<element name="DW56N1" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="17.78" y="5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.05" y="3.81" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="55.88" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="55.88" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="19.05" y="7.62" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW56R" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="15.24" y="10.16" smashed="yes" rot="R90">
+<element name="DW56R" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="15.24" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.51" y="8.89" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="80.01" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="80.01" y="85.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="16.51" y="12.7" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="DW7AN" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="81.28" y="35.56" smashed="yes" rot="R90">
@@ -1827,34 +1851,34 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="28" x="119.38" y="119.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="82.55" y="38.1" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW7AR" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="78.74" y="33.02" smashed="yes" rot="R90">
+<element name="DW7AR" library="eagleparts" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="" x="78.74" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.28" y="31.75" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="26" x="116.84" y="121.92" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="28" x="116.84" y="121.92" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="80.01" y="35.56" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW7BN" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="71.12" y="35.56" smashed="yes" rot="R90">
+<element name="DW7BN" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="71.12" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.39" y="34.29" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="119.38" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="119.38" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="72.39" y="38.1" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW7BR" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="72.39" y="39.37" smashed="yes" rot="R90">
+<element name="DW7BR" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="72.39" y="39.37" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="38.1" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="120.65" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="120.65" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="73.66" y="41.91" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW89N" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="63.5" y="55.88" smashed="yes" rot="R90">
+<element name="DW89N" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="63.5" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="64.77" y="54.61" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="128.27" y="135.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="128.27" y="135.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="64.77" y="58.42" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW89N1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="58.42" y="45.72" smashed="yes" rot="R90">
+<element name="DW89N1" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="58.42" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.69" y="44.45" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="96.52" y="104.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="96.52" y="104.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="59.69" y="48.26" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="DW89R" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="60.96" y="50.8" smashed="yes" rot="R90">
+<element name="DW89R" library="eagleparts" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="60.96" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.23" y="49.53" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="68" x="125.73" y="135.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="52" x="125.73" y="135.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="62.23" y="53.34" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="JP1" library="trainlib" package="CON10M" value="PORT1" x="86.36" y="5.08" smashed="yes">
