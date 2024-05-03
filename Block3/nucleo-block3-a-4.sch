@@ -14102,17 +14102,21 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 <part name="FRAME3" library="trainlib" deviceset="FRAME_A_L" device="" value="2/2">
 <attribute name="PAGE" value="LN port"/>
 </part>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47k"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <wire x1="71.12" y1="180.34" x2="71.12" y2="55.88" width="0.1524" layer="97" style="longdash"/>
 <text x="66.04" y="182.88" size="1.778" layer="97">Isolierung</text>
-<text x="72.898" y="175.26" size="1.778" layer="97">Digitalsystem</text>
+<text x="72.898" y="175.26" size="1.778" layer="97">Nucleo / LCC</text>
 <wire x1="5.08" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="97" style="longdash"/>
 <text x="175.26" y="-66.04" size="1.27" layer="91">Generates LN interrupt when
 TX=high and RX=low for 20 usec.</text>
 <wire x1="129.54" y1="-12.7" x2="129.54" y2="-142.24" width="0.1524" layer="97" style="longdash"/>
+<text x="124.46" y="-10.16" size="1.778" layer="97">Isolierung</text>
+<text x="121.92" y="-17.78" size="1.778" layer="97">LN</text>
+<text x="134.62" y="-17.78" size="1.778" layer="97">Nucleo / LCC</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$2" x="148.59" y="3.81" smashed="yes">
@@ -14639,8 +14643,8 @@ TX=high and RX=low for 20 usec.</text>
 <attribute name="NAME" x="154.94" y="-48.26" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="154.94" y="-50.8" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND14" gate="1" x="157.48" y="-58.42" smashed="yes">
-<attribute name="VALUE" x="154.94" y="-60.96" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="157.48" y="-60.96" smashed="yes">
+<attribute name="VALUE" x="154.94" y="-63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="119.38" y="-132.08" smashed="yes">
 <attribute name="VALUE" x="116.713" y="-135.255" size="1.778" layer="96"/>
@@ -14661,6 +14665,10 @@ TX=high and RX=low for 20 usec.</text>
 <attribute name="DRAWING_TITLE" x="161.29" y="-167.64" size="2.54" layer="94" font="vector"/>
 <attribute name="PAGE" x="161.29" y="-172.72" size="2.54" layer="94" font="vector"/>
 <attribute name="REVIEWER" x="176.53" y="-187.96" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="R6" gate="G$1" x="165.1" y="-55.88" smashed="yes">
+<attribute name="NAME" x="163.83" y="-54.3814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="163.83" y="-59.182" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14875,7 +14883,11 @@ TX=high and RX=low for 20 usec.</text>
 <segment>
 <pinref part="Q4" gate="N-CH" pin="S"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="157.48" y1="-58.42" x2="157.48" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="-55.88" x2="157.48" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-55.88" x2="157.48" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="157.48" y="-55.88"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="B" pin="5"/>
@@ -15373,9 +15385,9 @@ TX=high and RX=low for 20 usec.</text>
 <segment>
 <wire x1="149.86" y1="-40.64" x2="157.48" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="R47" gate="G$1" pin="2"/>
-<label x="165.1" y="-40.64" size="1.27" layer="95" xref="yes"/>
+<label x="177.8" y="-40.64" size="1.27" layer="95" xref="yes"/>
 <pinref part="Q4" gate="N-CH" pin="D"/>
-<wire x1="157.48" y1="-40.64" x2="165.1" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-40.64" x2="177.8" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-43.18" x2="157.48" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="157.48" y="-40.64"/>
 </segment>
@@ -15440,9 +15452,14 @@ TX=high and RX=low for 20 usec.</text>
 <label x="241.3" y="78.74" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="-50.8" x2="162.56" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-50.8" x2="172.72" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="N-CH" pin="G"/>
-<label x="165.1" y="-50.8" size="1.27" layer="95" xref="yes"/>
+<label x="177.8" y="-50.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="-50.8" x2="162.56" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-55.88" x2="172.72" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-55.88" x2="172.72" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="172.72" y="-50.8"/>
 </segment>
 </net>
 <net name="LN-TX-B" class="0">
