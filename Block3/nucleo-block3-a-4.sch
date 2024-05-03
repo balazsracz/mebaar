@@ -14147,11 +14147,11 @@ TX=high and RX=low for 20 usec.</text>
 <attribute name="NAME" x="192.4558" y="90.932" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="195.5038" y="90.932" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="OK1" gate="A" x="73.66" y="165.1" smashed="yes">
+<instance part="OK2" gate="A" x="73.66" y="165.1" smashed="yes">
 <attribute name="NAME" x="66.675" y="170.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.675" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="OK1" gate="B" x="73.66" y="147.32" smashed="yes">
+<instance part="OK2" gate="B" x="73.66" y="147.32" smashed="yes">
 <attribute name="NAME" x="66.675" y="153.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.675" y="139.7" size="1.778" layer="96"/>
 </instance>
@@ -14235,11 +14235,11 @@ TX=high and RX=low for 20 usec.</text>
 <instance part="SUPPLY3" gate="+5V" x="109.22" y="91.44" smashed="yes">
 <attribute name="VALUE" x="107.315" y="94.615" size="1.778" layer="96"/>
 </instance>
-<instance part="OK2" gate="A" x="73.66" y="88.9" smashed="yes">
+<instance part="OK1" gate="A" x="73.66" y="88.9" smashed="yes">
 <attribute name="NAME" x="66.675" y="94.615" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.675" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="OK2" gate="B" x="73.66" y="71.12" smashed="yes">
+<instance part="OK1" gate="B" x="73.66" y="71.12" smashed="yes">
 <attribute name="NAME" x="66.675" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.675" y="63.5" size="1.778" layer="96"/>
 </instance>
@@ -14676,12 +14676,12 @@ TX=high and RX=low for 20 usec.</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="OK1" gate="A" pin="EMIT"/>
+<pinref part="OK2" gate="A" pin="EMIT"/>
 <wire x1="83.82" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="B" pin="EMIT"/>
+<pinref part="OK2" gate="B" pin="EMIT"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="83.82" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
 </segment>
@@ -14696,12 +14696,12 @@ TX=high and RX=low for 20 usec.</text>
 <wire x1="83.82" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="OK2" gate="A" pin="EMIT"/>
+<pinref part="OK1" gate="A" pin="EMIT"/>
 <wire x1="83.82" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="OK2" gate="B" pin="EMIT"/>
+<pinref part="OK1" gate="B" pin="EMIT"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="83.82" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -14898,10 +14898,10 @@ TX=high and RX=low for 20 usec.</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="OK1" gate="A" pin="A"/>
+<pinref part="OK2" gate="A" pin="A"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="167.64" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="B" pin="C"/>
+<pinref part="OK2" gate="B" pin="C"/>
 <wire x1="58.42" y1="167.64" x2="55.88" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="144.78" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
@@ -14910,10 +14910,10 @@ TX=high and RX=low for 20 usec.</text>
 </net>
 <net name="BLKA-RX-" class="0">
 <segment>
-<pinref part="OK1" gate="B" pin="A"/>
+<pinref part="OK2" gate="B" pin="A"/>
 <wire x1="63.5" y1="149.86" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="149.86" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="A" pin="C"/>
+<pinref part="OK2" gate="A" pin="C"/>
 <wire x1="60.96" y1="162.56" x2="63.5" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="162.56" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
 <junction x="60.96" y="162.56"/>
@@ -14953,14 +14953,14 @@ TX=high and RX=low for 20 usec.</text>
 <net name="N$41" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="OK1" gate="A" pin="COL"/>
+<pinref part="OK2" gate="A" pin="COL"/>
 <wire x1="83.82" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="OK1" gate="B" pin="COL"/>
+<pinref part="OK2" gate="B" pin="COL"/>
 <wire x1="83.82" y1="149.86" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15090,9 +15090,9 @@ TX=high and RX=low for 20 usec.</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="OK2" gate="A" pin="A"/>
+<pinref part="OK1" gate="A" pin="A"/>
 <wire x1="63.5" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="OK2" gate="B" pin="C"/>
+<pinref part="OK1" gate="B" pin="C"/>
 <wire x1="58.42" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="68.58" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
@@ -15102,10 +15102,10 @@ TX=high and RX=low for 20 usec.</text>
 </net>
 <net name="BLKC-RX-" class="0">
 <segment>
-<pinref part="OK2" gate="B" pin="A"/>
+<pinref part="OK1" gate="B" pin="A"/>
 <wire x1="63.5" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="73.66" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="OK2" gate="A" pin="C"/>
+<pinref part="OK1" gate="A" pin="C"/>
 <wire x1="60.96" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
 <junction x="60.96" y="86.36"/>
 <pinref part="BLOCK_C" gate="G$1" pin="4"/>
@@ -15118,14 +15118,14 @@ TX=high and RX=low for 20 usec.</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="OK2" gate="A" pin="COL"/>
+<pinref part="OK1" gate="A" pin="COL"/>
 <wire x1="83.82" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="OK2" gate="B" pin="COL"/>
+<pinref part="OK1" gate="B" pin="COL"/>
 <wire x1="83.82" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
