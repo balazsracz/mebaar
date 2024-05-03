@@ -2775,35 +2775,11 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="GND">
-<polygon width="0.0762" layer="16" isolate="0.254">
-<vertex x="100.076" y="79.756"/>
-<vertex x="100.076" y="0.254"/>
-<vertex x="10.082" y="0.254"/>
-<vertex x="10.082" y="7.542"/>
-<vertex x="11.21" y="8.67"/>
-<vertex x="11.21" y="68.292"/>
-<vertex x="10.082" y="69.42"/>
-<vertex x="10.082" y="79.756"/>
-</polygon>
-<polygon width="0.0762" layer="1" isolate="0.254">
-<vertex x="100.076" y="0.254"/>
-<vertex x="100.076" y="79.756"/>
-<vertex x="10.082" y="79.756"/>
-<vertex x="10.082" y="69.42"/>
-<vertex x="11.21" y="68.292"/>
-<vertex x="11.21" y="8.67"/>
-<vertex x="10.082" y="7.542"/>
-<vertex x="10.082" y="0.254"/>
-</polygon>
 <contactref element="U1" pad="3"/>
 <contactref element="U2" pad="3"/>
 <contactref element="U3" pad="3"/>
-<wire x1="49.01" y1="64.69" x2="54.344" y2="64.69" width="0.254" layer="1"/>
-<wire x1="49.01" y1="59.61" x2="54.344" y2="59.61" width="0.254" layer="1"/>
 <contactref element="OK1" pad="11"/>
-<wire x1="49.01" y1="54.53" x2="54.344" y2="54.53" width="0.254" layer="1"/>
 <contactref element="OK1" pad="9"/>
-<wire x1="57.646" y1="49.45" x2="49.01" y2="49.45" width="0.254" layer="1"/>
 <contactref element="G1" pad="GND4"/>
 <contactref element="G1" pad="GND5"/>
 <contactref element="G1" pad="GND8"/>
@@ -2888,69 +2864,58 @@ design rules under a new name.</description>
 <wire x1="22.86" y1="49.53" x2="22.86" y2="46.99" width="0" layer="19" extent="1-1"/>
 <wire x1="49.01" y1="49.45" x2="22.86" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="49.01" y1="54.53" x2="49.01" y2="49.45" width="0" layer="19" extent="1-1"/>
-<wire x1="54.344" y1="59.61" x2="54.344" y2="54.53" width="0" layer="19" extent="1-1"/>
-<wire x1="54.344" y1="64.69" x2="54.344" y2="59.61" width="0" layer="19" extent="1-1"/>
-<wire x1="83.82" y1="49.53" x2="57.646" y2="49.45" width="0" layer="19" extent="1-1"/>
+<wire x1="49.01" y1="59.61" x2="49.01" y2="54.53" width="0" layer="19" extent="1-1"/>
+<wire x1="49.01" y1="64.69" x2="49.01" y2="59.61" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="49.53" x2="49.01" y2="49.45" width="0" layer="19" extent="1-1"/>
 <wire x1="83.82" y1="34.29" x2="83.82" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="R9" pad="1"/>
-<wire x1="44.184" y1="45.894" x2="44.184" y2="64.436" width="0.254" layer="1"/>
-<wire x1="44.184" y1="64.436" x2="-22.89" y2="-81.81" width="0.254" layer="1"/>
 <contactref element="OK2" pad="1"/>
 <contactref element="OK2" pad="4"/>
-<wire x1="-22.89" y1="-81.81" x2="-15.27" y2="-81.81" width="0" layer="19" extent="1-1"/>
-<wire x1="45.2" y1="42.78" x2="44.184" y2="45.894" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.27" y1="-81.81" x2="-22.89" y2="-81.81" width="0" layer="19" extent="1-1"/>
+<wire x1="45.2" y1="42.78" x2="-15.27" y2="-81.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BLKA-RX-">
-<wire x1="41.898" y1="44.878" x2="43.676" y2="46.656" width="0.254" layer="1"/>
-<wire x1="43.676" y1="46.656" x2="43.676" y2="59.864" width="0.254" layer="1"/>
-<wire x1="43.676" y1="59.864" x2="-17.81" y2="-81.81" width="0.254" layer="1"/>
 <contactref element="BLOCK_A" pad="4"/>
 <contactref element="OK2" pad="2"/>
 <contactref element="OK2" pad="3"/>
 <wire x1="-17.81" y1="-81.81" x2="-20.35" y2="-81.81" width="0" layer="19" extent="1-1"/>
-<wire x1="10.945" y1="13.74" x2="41.898" y2="44.878" width="0" layer="19" extent="1-1"/>
+<wire x1="10.945" y1="13.74" x2="-17.81" y2="-81.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$35">
 <contactref element="R11" pad="1"/>
 <contactref element="OK1" pad="5"/>
-<wire x1="41.644" y1="45.386" x2="43.168" y2="46.91" width="0.254" layer="1"/>
-<wire x1="43.168" y1="55.292" x2="41.39" y2="57.07" width="0.254" layer="1"/>
-<wire x1="43.168" y1="46.91" x2="43.168" y2="55.292" width="0.254" layer="1"/>
 <contactref element="OK1" pad="8"/>
-<wire x1="41.644" y1="45.386" x2="41.39" y2="49.45" width="0" layer="19" extent="16-16"/>
-<wire x1="37.58" y1="42.78" x2="41.644" y2="45.386" width="0" layer="19" extent="16-16"/>
+<wire x1="41.39" y1="49.45" x2="41.39" y2="57.07" width="0" layer="19" extent="1-1"/>
+<wire x1="37.58" y1="42.78" x2="41.39" y2="49.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BLKB-RX-">
 <contactref element="OK1" pad="7"/>
-<wire x1="41.39" y1="45.894" x2="42.66" y2="47.164" width="0.254" layer="1"/>
-<wire x1="42.66" y1="47.164" x2="42.66" y2="50.72" width="0.254" layer="1"/>
-<wire x1="42.66" y1="50.72" x2="41.39" y2="51.99" width="0.254" layer="1"/>
 <contactref element="OK1" pad="6"/>
 <contactref element="BLOCK_B" pad="4"/>
-<wire x1="41.39" y1="51.99" x2="41.39" y2="54.53" width="0" layer="19" extent="1-1"/>
-<wire x1="89.385" y1="19.28" x2="41.39" y2="45.894" width="0" layer="19" extent="16-16"/>
+<wire x1="41.39" y1="51.99" x2="89.385" y2="19.28" width="0" layer="19" extent="1-1"/>
+<wire x1="41.39" y1="54.53" x2="41.39" y2="51.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
 <contactref element="R13" pad="2"/>
-<wire x1="54.41" y1="67.23" x2="-22.89" y2="-74.19" width="0.254" layer="1"/>
 <contactref element="OK2" pad="16"/>
+<wire x1="-22.89" y1="-74.19" x2="54.41" y2="67.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$42">
 <contactref element="R14" pad="2"/>
-<wire x1="54.41" y1="62.15" x2="-17.81" y2="-74.19" width="0.254" layer="1"/>
 <contactref element="OK2" pad="14"/>
+<wire x1="-17.81" y1="-74.19" x2="54.41" y2="62.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
 <contactref element="R15" pad="2"/>
 <contactref element="OK1" pad="12"/>
-<wire x1="54.41" y1="57.07" x2="49.01" y2="57.07" width="0.254" layer="1"/>
+<wire x1="49.01" y1="57.07" x2="54.41" y2="57.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$44">
 <contactref element="R16" pad="2"/>
 <contactref element="OK1" pad="10"/>
-<wire x1="54.41" y1="51.99" x2="49.01" y2="51.99" width="0.254" layer="1"/>
+<wire x1="49.01" y1="51.99" x2="54.41" y2="51.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BLKA-RX+">
 <contactref element="BLOCK_A" pad="5"/>
