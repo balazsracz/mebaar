@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -210,8 +210,19 @@
 <text x="72.39" y="30.48" size="2.54" layer="115" font="vector" align="center-left">(1)</text>
 <text x="63.5" y="20.32" size="2.54" layer="115" font="vector" align="center-left">(2b)</text>
 <text x="78.74" y="20.32" size="2.54" layer="115" font="vector" align="center-right">(2a)</text>
-<text x="54.61" y="10.16" size="2.54" layer="115" font="vector" align="center-left">(3/4)</text>
-<text x="54.61" y="50.8" size="2.54" layer="115" font="vector" align="center-left">(8/9)</text>
+<text x="54.61" y="11.43" size="2.54" layer="115" font="vector" align="center-left">(3/4)</text>
+<text x="54.61" y="49.53" size="2.54" layer="115" font="vector" align="center-left">(8/9)</text>
+<text x="7.62" y="49.53" size="2.54" layer="115" font="vector" align="center-left">(10/11)</text>
+<text x="7.62" y="11.43" size="2.54" layer="115" font="vector" align="center-left">(5/6)</text>
+<text x="63.5" y="40.64" size="2.54" layer="115" font="vector" align="center-left">(7b)</text>
+<text x="78.74" y="40.64" size="2.54" layer="115" font="vector" align="center-right">(7a)</text>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="0.635" width="0.3048" layer="115"/>
+<wire x1="5.08" y1="0.635" x2="13.97" y2="0.635" width="0.3048" layer="115"/>
+<wire x1="13.97" y1="0.635" x2="13.97" y2="3.81" width="0.3048" layer="115"/>
+<wire x1="13.97" y1="3.81" x2="5.08" y2="3.81" width="0.3048" layer="115"/>
+<text x="7.874" y="2.159" size="2.54" layer="115" font="vector" align="center">Fdl</text>
+<rectangle x1="10.541" y1="1.016" x2="12.319" y2="2.159" layer="115"/>
+<circle x="11.43" y="2.667" radius="0.127" width="0.254" layer="115"/>
 </plain>
 <libraries>
 <library name="trainlib">
