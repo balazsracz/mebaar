@@ -13902,8 +13902,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0">
-<clearance class="0" value="0.2032"/>
+<class number="0" name="default" width="0.2032" drill="0">
+<clearance class="0" value="0.1524"/>
 </class>
 </classes>
 <parts>
@@ -13927,9 +13927,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 <part name="BLOCK_A" library="eagleparts" deviceset="DSUB-9-RIGHT-ANGLE" device=""/>
 <part name="BLOCK_B" library="eagleparts" deviceset="DSUB-9-RIGHT-ANGLE" device=""/>
 <part name="BLOCK_C" library="eagleparts" deviceset="DSUB-9-RIGHT-ANGLE" device=""/>
-<part name="U1" library="eagleparts" deviceset="TC4428ACOA" device=""/>
-<part name="U2" library="eagleparts" deviceset="TC4428ACOA" device=""/>
-<part name="U3" library="eagleparts" deviceset="TC4428ACOA" device=""/>
+<part name="U1" library="eagleparts" deviceset="TC4428ACOA" device="" value="TC4428"/>
+<part name="U2" library="eagleparts" deviceset="TC4428ACOA" device="" value="TC4428"/>
+<part name="U3" library="eagleparts" deviceset="TC4428ACOA" device="" value="TC4428"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13969,7 +13969,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AA" package3d_urn="urn:adsk.eagle:package:43433/2"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="DO214AA" package3d_urn="urn:adsk.eagle:package:43433/2"/>
@@ -14014,7 +14013,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 <part name="S2" library="g-e2e-training" deviceset="TACTSW-6X6" device="" technology="S" value="W1"/>
 <part name="S5" library="g-e2e-training" deviceset="TACTSW-6X6" device="" technology="S" value="W1"/>
 <part name="S8" library="g-e2e-training" deviceset="TACTSW-6X6" device="" technology="S" value="W1"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1200"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k2"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="820"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510"/>
 <part name="S3" library="g-e2e-training" deviceset="TACTSW-6X6" device="" technology="S" value="W1"/>
@@ -14058,6 +14057,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 <attribute name="PAGE" value="LN port"/>
 </part>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47k"/>
+<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14224,13 +14227,13 @@ TX=high and RX=low for 20 usec.</text>
 </instance>
 <instance part="G1" gate="G$1" x="223.52" y="127" smashed="yes" rot="R270"/>
 <instance part="GND6" gate="1" x="220.98" y="132.08" smashed="yes">
-<attribute name="VALUE" x="218.44" y="134.62" size="1.778" layer="96"/>
+<attribute name="VALUE" x="221.742" y="138.43" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND11" gate="1" x="223.52" y="73.66" smashed="yes">
-<attribute name="VALUE" x="222.758" y="72.644" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="222.758" y="72.898" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND12" gate="1" x="208.28" y="73.66" smashed="yes">
-<attribute name="VALUE" x="205.74" y="76.2" size="1.778" layer="96"/>
+<attribute name="VALUE" x="207.518" y="72.898" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="J4" gate="A" x="27.94" y="-27.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.7754" y="-22.6314" size="2.083" layer="95" ratio="6" rot="MR0"/>
@@ -14299,9 +14302,6 @@ TX=high and RX=low for 20 usec.</text>
 </instance>
 <instance part="P+7" gate="VCC" x="106.68" y="175.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="109.22" y="172.72" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="P+8" gate="VCC" x="241.3" y="177.8" smashed="yes">
-<attribute name="VALUE" x="238.76" y="175.26" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY4" gate="+5V" x="226.06" y="134.62" smashed="yes" rot="R180">
 <attribute name="VALUE" x="227.965" y="131.445" size="1.778" layer="96" rot="R180"/>
@@ -14625,6 +14625,18 @@ TX=high and RX=low for 20 usec.</text>
 <attribute name="NAME" x="163.83" y="-54.3814" size="1.778" layer="95"/>
 <attribute name="VALUE" x="163.83" y="-59.182" size="1.778" layer="96"/>
 </instance>
+<instance part="GND27" gate="1" x="223.52" y="177.8" smashed="yes" rot="R180">
+<attribute name="VALUE" x="226.06" y="175.26" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND28" gate="1" x="238.76" y="129.54" smashed="yes">
+<attribute name="VALUE" x="241.3" y="128.778" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND29" gate="1" x="236.22" y="119.38" smashed="yes" rot="R180">
+<attribute name="VALUE" x="233.68" y="120.142" size="1.778" layer="96"/>
+</instance>
+<instance part="P+1" gate="VCC" x="228.6" y="134.62" smashed="yes" rot="R180">
+<attribute name="VALUE" x="231.14" y="137.16" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14849,6 +14861,21 @@ TX=high and RX=low for 20 usec.</text>
 <wire x1="137.16" y1="-127" x2="139.7" y2="-127" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="139.7" y1="-127" x2="139.7" y2="-129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="G1" gate="G$1" pin="GND6"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="238.76" y1="139.7" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="223.52" y1="172.72" x2="223.52" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="GND3"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="114.3" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="GND7"/>
+<pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -15379,11 +15406,6 @@ TX=high and RX=low for 20 usec.</text>
 <wire x1="104.14" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="G1" gate="G$1" pin="VDD"/>
-<pinref part="P+8" gate="VCC" pin="VCC"/>
-<wire x1="241.3" y1="172.72" x2="241.3" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="55.88" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
@@ -15398,6 +15420,11 @@ TX=high and RX=low for 20 usec.</text>
 <wire x1="137.16" y1="-35.56" x2="142.24" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="P+15" gate="VCC" pin="VCC"/>
 <wire x1="142.24" y1="-35.56" x2="142.24" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="G1" gate="G$1" pin="3V3"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="228.6" y1="139.7" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LN-TX-P" class="0">
@@ -15612,7 +15639,7 @@ TX=high and RX=low for 20 usec.</text>
 <wire x1="180.34" y1="68.58" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="LN-RX-ALT" class="0">
 <segment>
 <pinref part="G1" gate="G$1" pin="PB14"/>
 <pinref part="SJ1" gate="SJ$1" pin="2"/>
