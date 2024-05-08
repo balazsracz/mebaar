@@ -12210,6 +12210,9 @@ Source: www.kingbright.com</description>
 <class number="0" name="default" width="0.254" drill="0">
 <clearance class="0" value="0.254"/>
 </class>
+<class number="1" name="pwr" width="0.4064" drill="0">
+<clearance class="1" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME2" library="trainlib" deviceset="FRAME_A_L" device="" value="3/6">
@@ -12675,7 +12678,7 @@ Source: www.kingbright.com</description>
 <wire x1="43.18" y1="60.96" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="1">
 <segment>
 <pinref part="SUPPLY5" gate="+5V" pin="+5V"/>
 <pinref part="LED1" gate="A" pin="VDD"/>
