@@ -79,7 +79,9 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
 <layer number="114" name="programming" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="laser-etch" color="47" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="laser-cut" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -396,6 +398,9 @@
 <vertex x="-0.508" y="-0.508" curve="270"/>
 </polygon>
 </package>
+<package name="ALIGNMENT-HOLE">
+<pad name="P$1" x="0" y="0" drill="0.85" shape="square"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHD1">
@@ -439,6 +444,11 @@
 <text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="ALIGN-HOLE">
+<pin name="P$1" x="0" y="0" length="middle"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -510,6 +520,21 @@ DigiKey 277-6404-ND</description>
 <connects>
 <connect gate="1" pin="1" pad="P$1"/>
 <connect gate="1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ALIGN-HOLE" prefix="H">
+<gates>
+<gate name="G$1" symbol="ALIGN-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ALIGNMENT-HOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -830,6 +855,9 @@ DigiKey 277-6404-ND</description>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="SJ1" library="eagleparts" deviceset="SJ" device="RND2"/>
+<part name="H5" library="eagleparts" deviceset="ALIGN-HOLE" device=""/>
+<part name="H6" library="eagleparts" deviceset="ALIGN-HOLE" device=""/>
+<part name="H7" library="eagleparts" deviceset="ALIGN-HOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -898,6 +926,9 @@ DigiKey 277-6404-ND</description>
 <attribute name="NAME" x="17.78" y="120.904" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="24.13" y="120.904" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="H5" gate="G$1" x="134.62" y="142.24" smashed="yes"/>
+<instance part="H6" gate="G$1" x="134.62" y="137.16" smashed="yes"/>
+<instance part="H7" gate="G$1" x="134.62" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
