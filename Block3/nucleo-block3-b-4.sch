@@ -13466,7 +13466,7 @@ Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="IC2" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="ISO7221" device="" package3d_urn="urn:adsk.eagle:package:7566865/2" technology="A"/>
+<part name="IC2" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="ISO7221" device="" package3d_urn="urn:adsk.eagle:package:7566865/2" technology="A" value="ISO7721"/>
 <part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78L*" device="F" package3d_urn="urn:adsk.eagle:package:16478/2" technology="05"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="Q4" library="eagleparts" deviceset="BSS84" device=""/>
